@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Frankenstein_Soldier_SubMachinegun-->
+  <PawnKindDef ParentName="LightMechanoidKind">
+    <defName>Frankenstein_Soldier_SubMachinegun</defName>
+    <label>(Frankenstein)Soldier_SubMachinegun</label>
+    <labelPlural>(Frankenstein)Soldier_SubMachineguns</labelPlural>
+    <race>Frankenstein_Soldier_SubMachinegun</race>
+    <combatPower>120</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Soldier_SubMachinegun</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.9</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>    
+    <weaponTags>
+      <li>Frankenstein_SubMachinegun</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="LightMechanoidKind">
+    <defName>Frankenstein_Soldier_SubMachinegunSpawned</defName>
+    <label>(Frankenstein)Soldier_SubMachinegun</label>
+    <labelPlural>(Frankenstein)Soldier_SubMachineguns</labelPlural>
+    <race>Frankenstein_Soldier_SubMachinegunSpawned</race>
+    <combatPower>120</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Soldier_SubMachinegun</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.9</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>    
+    <weaponTags>
+      <li>Frankenstein_SubMachinegun</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Frankenstein_Soldier_AssaultRifle-->
+  <PawnKindDef ParentName="LightMechanoidKind">
+    <defName>Frankenstein_Soldier_AssaultRifle</defName>
+    <label>(Frankenstein)Soldier_AssaultRifle</label>
+    <labelPlural>(Frankenstein)Soldier_AssaultRifles</labelPlural>
+    <race>Frankenstein_Soldier_AssaultRifle</race>
+    <combatPower>120</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Soldier_AssaultRifle</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.9</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>    
+    <weaponTags>
+      <li>Frankenstein_AssaultRifle</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="LightMechanoidKind">
+    <defName>Frankenstein_Soldier_AssaultRifleSpawned</defName>
+    <label>(Frankenstein)Soldier_AssaultRifle</label>
+    <labelPlural>(Frankenstein)Soldier_AssaultRifles</labelPlural>
+    <race>Frankenstein_Soldier_AssaultRifleSpawned</race>
+    <combatPower>120</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Soldier_AssaultRifle</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.9</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>    
+    <weaponTags>
+      <li>Frankenstein_AssaultRifle</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Frankenstein_Soldier_Rifle-->
+  <PawnKindDef ParentName="LightMechanoidKind">
+    <defName>Frankenstein_Soldier_Rifle</defName>
+    <label>(Frankenstein)Soldier_Rifle</label>
+    <labelPlural>(Frankenstein)Soldier_Rifles</labelPlural>
+    <race>Frankenstein_Soldier_Rifle</race>
+    <combatPower>120</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Soldier_Rifle</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.9</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>    
+    <weaponTags>
+      <li>Frankenstein_Rifle</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="LightMechanoidKind">
+    <defName>Frankenstein_Soldier_RifleSpawned</defName>
+    <label>(Frankenstein)Soldier_Rifle</label>
+    <labelPlural>(Frankenstein)Soldier_Rifles</labelPlural>
+    <race>Frankenstein_Soldier_RifleSpawned</race>
+    <combatPower>120</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Soldier_Rifle</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.9</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>    
+    <weaponTags>
+      <li>Frankenstein_Rifle</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Frankenstein_Soldier_Rocket-->
+  <PawnKindDef ParentName="LightMechanoidKind">
+    <defName>Frankenstein_Soldier_Rocket</defName>
+    <label>(Frankenstein)Soldier_Rocket</label>
+    <labelPlural>(Frankenstein)Soldier_Rockets</labelPlural>
+    <race>Frankenstein_Soldier_Rocket</race>
+    <combatPower>120</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Soldier_Rocket</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.9</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>    
+    <weaponTags>
+      <li>Frankenstein_Rocket</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="LightMechanoidKind">
+    <defName>Frankenstein_Soldier_RocketSpawned</defName>
+    <label>(Frankenstein)Soldier_Rocket</label>
+    <labelPlural>(Frankenstein)Soldier_Rockets</labelPlural>
+    <race>Frankenstein_Soldier_RocketSpawned</race>
+    <combatPower>120</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <forceNoDeathNotification>true</forceNoDeathNotification>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Soldier_Rocket</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.9</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>    
+    <weaponTags>
+      <li>Frankenstein_Rocket</li>
+    </weaponTags>
+  </PawnKindDef>
+
+</Defs>

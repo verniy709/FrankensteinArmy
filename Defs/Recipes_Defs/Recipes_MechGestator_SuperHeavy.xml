@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="SuperHeavyFrankensteinRecipe" ParentName="BaseFrankensteinRecipe" Abstract="True">
+    <gestationCycles>8</gestationCycles>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Frankenstein_GoreBag</li>
+          </thingDefs>
+        </filter>
+        <count>800</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SuperHeavyFrankensteinRecipe">
+    <defName>Frankenstein_SdKfz251_Flak</defName>
+    <label>(Frankenstein)SdKfz251_Flak</label>
+    <description>ToDo.</description>
+    <products>
+      <Frankenstein_SdKfz251_Flak>1</Frankenstein_SdKfz251_Flak>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Frankenstein_SdKfz251_Flak</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SuperHeavyFrankensteinRecipe">
+    <defName>Frankenstein_SdKfz251_SubMachinegun</defName>
+    <label>(Frankenstein)SdKfz251_SubMachinegun</label>
+    <description>ToDo.</description>
+    <products>
+      <Frankenstein_SdKfz251_SubMachinegun>1</Frankenstein_SdKfz251_SubMachinegun>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Frankenstein_SdKfz251_SubMachinegun</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SuperHeavyFrankensteinRecipe">
+    <defName>Frankenstein_SdKfz251_AssaultRifle</defName>
+    <label>(Frankenstein)SdKfz251_AssaultRifle</label>
+    <description>ToDo.</description>
+    <products>
+      <Frankenstein_SdKfz251_AssaultRifle>1</Frankenstein_SdKfz251_AssaultRifle>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Frankenstein_SdKfz251_AssaultRifle</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SuperHeavyFrankensteinRecipe">
+    <defName>Frankenstein_SdKfz251_Rifle</defName>
+    <label>(Frankenstein)SdKfz251_Rifle</label>
+    <description>ToDo.</description>
+    <products>
+      <Frankenstein_SdKfz251_Rifle>1</Frankenstein_SdKfz251_Rifle>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Frankenstein_SdKfz251_Rifle</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SuperHeavyFrankensteinRecipe">
+    <defName>Frankenstein_SdKfz251_Rocket</defName>
+    <label>(Frankenstein)SdKfz251_Rocket</label>
+    <description>ToDo.</description>
+    <products>
+      <Frankenstein_SdKfz251_Rocket>1</Frankenstein_SdKfz251_Rocket>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Frankenstein_SdKfz251_Rocket</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+
+</Defs>

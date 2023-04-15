@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="BaseFrankensteinRecipe" Abstract="True">
+    <jobString>Assembling zombot.</jobString>
+    <workAmount>1800</workAmount>
+    <gestationCycles>1</gestationCycles>
+    <formingTicks>30000</formingTicks>
+    <mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>
+    <workSpeedStat>MechFormingSpeed</workSpeedStat>
+    <soundWorking>MechGestatorCycle_Initiating</soundWorking>
+    <researchPrerequisite>BasicMechtech</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef Name="LightFrankensteinRecipe" ParentName="BaseFrankensteinRecipe" Abstract="True">
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Frankenstein_GoreBag</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LightFrankensteinRecipe">
+    <defName>Frankenstein_Soldier_SubMachinegun</defName>
+    <label>(Frankenstein)Soldier_SubMachinegun</label>
+    <description>ToDo.</description>
+    <products>
+      <Frankenstein_Soldier_SubMachinegun>1</Frankenstein_Soldier_SubMachinegun>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Frankenstein_Soldier_SubMachinegun</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LightFrankensteinRecipe">
+    <defName>Frankenstein_Soldier_AssaultRifle</defName>
+    <label>(Frankenstein)Soldier_AssaultRifle</label>
+    <description>ToDo.</description>
+    <products>
+      <Frankenstein_Soldier_AssaultRifle>1</Frankenstein_Soldier_AssaultRifle>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Frankenstein_Soldier_AssaultRifle</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LightFrankensteinRecipe">
+    <defName>Frankenstein_Soldier_Rifle</defName>
+    <label>(Frankenstein)Soldier_Rifle</label>
+    <description>ToDo.</description>
+    <products>
+      <Frankenstein_Soldier_Rifle>1</Frankenstein_Soldier_Rifle>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Frankenstein_Soldier_Rifle</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LightFrankensteinRecipe">
+    <defName>Frankenstein_Soldier_Rocket</defName>
+    <label>(Frankenstein)Soldier_Rocket</label>
+    <description>ToDo.</description>
+    <products>
+      <Frankenstein_Soldier_Rocket>1</Frankenstein_Soldier_Rocket>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Frankenstein_Soldier_Rocket</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+</Defs>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>FrankensteinArmy</defName>
+    <label>Frankenstein's Army</label>
+    <description>ToDo.</description>
+    <pawnSingular>zombot</pawnSingular>
+    <pawnsPlural>zombots</pawnsPlural>
+    <fixedName>Frankenstein's Army</fixedName>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <factionNameMaker>NamerFactionMechanoid</factionNameMaker>
+    <factionIconPath>World/Frankenstein_Faction</factionIconPath>
+    <canStageAttacks>true</canStageAttacks>
+    <colorSpectrum>
+      <li>(0.78, 0.79, 0.71)</li>
+    </colorSpectrum>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(300,  0)</li>
+        <li>(700,  1)</li>
+        <li>(1400, 1.8)</li>
+        <li>(2800, 2.2)</li>
+        <li>(4000, 2.6)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <raidLootMaker>MechanoidRaidLootMaker</raidLootMaker>
+    <raidLootValueFromPointsCurve>
+      <points>
+        <li>(35,     8)</li>
+        <li>(100,   60)</li>
+        <li>(1000, 250)</li>
+        <li>(2000, 400)</li>
+        <li>(4000, 500)</li>
+      </points>
+    </raidLootValueFromPointsCurve>
+    <humanlikeFaction>false</humanlikeFaction>
+    <hidden>true</hidden>
+    <autoFlee>false</autoFlee>
+    <canUseAvoidGrid>false</canUseAvoidGrid>
+    <techLevel>Ultra</techLevel>
+    <earliestRaidDays>30</earliestRaidDays>
+    <permanentEnemy>true</permanentEnemy>
+    <hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(400,200)</li>
+        <li>(900,300)</li>
+        <li>(100000,10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Motorized Infantry-->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Frankenstein_SdKfz251_Flak>1</Frankenstein_SdKfz251_Flak>
+          <Frankenstein_SdKfz251_SubMachinegun>1</Frankenstein_SdKfz251_SubMachinegun>
+          <Frankenstein_SdKfz251_AssaultRifle>1</Frankenstein_SdKfz251_AssaultRifle>
+          <Frankenstein_SdKfz251_Rifle>1</Frankenstein_SdKfz251_Rifle>
+          <Frankenstein_SdKfz251_Rocket>1</Frankenstein_SdKfz251_Rocket>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <allowedArrivalTemperatureRange>-100~200</allowedArrivalTemperatureRange>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>901</configurationListOrderPriority>
+    <dropPodActive>ActiveDropPodMechanoid</dropPodActive>
+    <dropPodIncoming>DropPodIncomingMechanoid</dropPodIncoming>
+  </FactionDef>
+
+</Defs>

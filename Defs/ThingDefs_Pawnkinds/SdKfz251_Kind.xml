@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Frankenstein_SdKfz251_Flak-->
+  <PawnKindDef ParentName="HeavyMechanoidKind">
+    <defName>Frankenstein_SdKfz251_Flak</defName>
+    <label>(Frankenstein)SdKfz251_Flak</label>
+    <labelPlural>(Frankenstein)SdKfz251_Flaks</labelPlural>
+    <race>Frankenstein_SdKfz251_Flak</race>
+    <combatPower>900</combatPower>
+    <maxPerGroup>2</maxPerGroup>
+    <allowInMechClusters>false</allowInMechClusters>  
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_SdKfz251_Flak</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>4.0</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.8, 0.7)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>    
+    <controlGroupPortraitZoom>0.7</controlGroupPortraitZoom>  
+    <weaponTags>
+      <li>Frankenstein_Flak</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Frankenstein_SdKfz251_SubMachinegun-->
+  <PawnKindDef ParentName="HeavyMechanoidKind">
+    <defName>Frankenstein_SdKfz251_SubMachinegun</defName>
+    <label>(Frankenstein)SdKfz251_SubMachinegun</label>
+    <labelPlural>(Frankenstein)SdKfz251_SubMachinegun</labelPlural>
+    <race>Frankenstein_SdKfz251_SubMachinegun</race>
+    <combatPower>900</combatPower>
+    <maxPerGroup>2</maxPerGroup>
+    <allowInMechClusters>false</allowInMechClusters>   
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_SdKfz251_SubMachinegun</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>4.0</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.8, 0.7)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>    
+    <controlGroupPortraitZoom>0.7</controlGroupPortraitZoom>  
+    <weaponTags>
+      <li>Frankenstein_Machinegun</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Frankenstein_SdKfz251_AssaultRifle-->
+  <PawnKindDef ParentName="HeavyMechanoidKind">
+    <defName>Frankenstein_SdKfz251_AssaultRifle</defName>
+    <label>(Frankenstein)SdKfz251_AssaultRifle</label>
+    <labelPlural>(Frankenstein)SdKfz251_AssaultRifle</labelPlural>
+    <race>Frankenstein_SdKfz251_AssaultRifle</race>
+    <combatPower>900</combatPower>
+    <maxPerGroup>2</maxPerGroup>
+    <allowInMechClusters>false</allowInMechClusters>   
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_SdKfz251_AssaultRifle</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>4.0</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.8, 0.7)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>    
+    <controlGroupPortraitZoom>0.7</controlGroupPortraitZoom>  
+    <weaponTags>
+      <li>Frankenstein_Machinegun</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Frankenstein_SdKfz251_Rifle-->
+  <PawnKindDef ParentName="HeavyMechanoidKind">
+    <defName>Frankenstein_SdKfz251_Rifle</defName>
+    <label>(Frankenstein)SdKfz251_Rifle</label>
+    <labelPlural>(Frankenstein)SdKfz251_Rifle</labelPlural>
+    <race>Frankenstein_SdKfz251_Rifle</race>
+    <combatPower>900</combatPower>
+    <maxPerGroup>2</maxPerGroup>
+    <allowInMechClusters>false</allowInMechClusters>   
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_SdKfz251_Rifle</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>4.0</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.8, 0.7)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>    
+    <controlGroupPortraitZoom>0.7</controlGroupPortraitZoom>  
+    <weaponTags>
+      <li>Frankenstein_Machinegun</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Frankenstein_SdKfz251_Rocket-->
+  <PawnKindDef ParentName="HeavyMechanoidKind">
+    <defName>Frankenstein_SdKfz251_Rocket</defName>
+    <label>(Frankenstein)SdKfz251_Rocket</label>
+    <labelPlural>(Frankenstein)SdKfz251_Rocket</labelPlural>
+    <race>Frankenstein_SdKfz251_Rocket</race>
+    <combatPower>900</combatPower>
+    <maxPerGroup>2</maxPerGroup>
+    <allowInMechClusters>false</allowInMechClusters>   
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_SdKfz251_Rocket</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>4.0</drawSize>
+          <shadowData>
+            <volume>(0.7, 0.8, 0.7)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>    
+    <controlGroupPortraitZoom>0.7</controlGroupPortraitZoom>  
+    <weaponTags>
+      <li>Frankenstein_Machinegun</li>
+    </weaponTags>
+  </PawnKindDef>
+
+</Defs>

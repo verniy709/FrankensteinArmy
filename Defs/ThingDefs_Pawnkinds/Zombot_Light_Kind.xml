@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Frankenstein_PODHans-->
+  <PawnKindDef ParentName="LightMechanoidKind">
+      <defName>Frankenstein_PODHans</defName>
+      <label>(Frankenstein)PODHans</label>
+      <race>Frankenstein_PODHans</race>
+      <combatPower>30</combatPower>
+      <allowInMechClusters>false</allowInMechClusters>
+      <lifeStages>
+        <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_PODHans</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.45</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      </lifeStages>
+    </PawnKindDef>
+
+    <!-- Frankenstein_PODHelga-->
+  <PawnKindDef ParentName="LightMechanoidKind">
+      <defName>Frankenstein_PODHelga</defName>
+      <label>(Frankenstein)PODHelga</label>
+      <race>Frankenstein_PODHelga</race>
+      <combatPower>30</combatPower>
+      <allowInMechClusters>false</allowInMechClusters>
+      <lifeStages>
+        <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_PODHelga</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.45</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      </lifeStages>
+    </PawnKindDef>
+
+    <!-- Frankenstein_PODHeinrich-->
+    <PawnKindDef ParentName="LightMechanoidKind">
+    <defName>Frankenstein_PODHeinrich</defName>
+    <label>(Frankenstein)PODHeinrich</label>
+    <race>Frankenstein_PODHeinrich</race>
+    <combatPower>140</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+        <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_PODHeinrich</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.45</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      </lifeStages>
+  </PawnKindDef>
+
+</Defs>

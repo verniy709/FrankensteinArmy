@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Frankenstein_SdKfz251Base-->
+  <ThingDef Name="Frankenstein_SdKfz251Base" ParentName="Frankenstein_SuperHeavy" Abstract="True">
+    <statBases>
+      <MoveSpeed>7.5</MoveSpeed>
+      <EMPResistance>0.3</EMPResistance>
+      <MarketValue>2000</MarketValue>
+    </statBases>
+    <race>
+      <body>Mech_Warqueen</body>
+      <baseBodySize>4</baseBodySize>
+      <lifeStageAges>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Warqueen_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Warqueen_Death</soundDeath>
+          <soundCall>Pawn_Mech_Warqueen_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <baseHealthScale>4.5</baseHealthScale>
+    </race>
+    <tools Inherit="False">
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseGun">
+    <defName>Frankenstein_Flak</defName>
+    <label>(Frankenstein)Flak</label>
+    <description>ToDo.</description>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <graphicData>
+      <texPath>Frankenstein_Null</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>20</Mass>
+      <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Frankenstein_Flak</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Rocket</defaultProjectile>
+        <forcedMissRadius>2.9</forcedMissRadius>
+        <warmupTime>4.5</warmupTime>
+        <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+        <range>51.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>InfernoCannon_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <muzzleFlashScale>14</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseGun">
+    <defName>Frankenstein_Machinegun</defName>
+    <label>(Frankenstein)Machinegun</label>
+    <description>ToDo.</description>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>true</destroyOnDrop>
+    <graphicData>
+      <texPath>Frankenstein_Null</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>400</MarketValue>
+      <Mass>5.0</Mass>
+      <AccuracyTouch>0.15</AccuracyTouch>
+      <AccuracyShort>0.25</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>Frankenstein_Machinegun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Minigun</defaultProjectile>
+        <warmupTime>2.0</warmupTime>
+        <range>37.9</range>
+        <burstShotCount>25</burstShotCount>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrels</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>11.7</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Frankenstein_SdKfz251_Flak-->
+  <ThingDef ParentName="Frankenstein_SdKfz251Base">
+    <defName>Frankenstein_SdKfz251_Flak</defName>
+    <label>(Frankenstein)SdKfz251_Flak</label>
+    <description>ToDo.</description>
+  </ThingDef>
+
+  <!-- Frankenstein_SdKfz251_SubMachinegun-->
+  <ThingDef ParentName="Frankenstein_SdKfz251Base">
+    <defName>Frankenstein_SdKfz251_SubMachinegun</defName>
+    <label>(Frankenstein)SdKfz251_SubMachinegun</label>
+    <description>ToDo.</description>
+    <comps>
+      <li Class="CompProperties_MechCarrier">
+        <spawnPawnKind>Frankenstein_Soldier_SubMachinegunSpawned</spawnPawnKind>
+        <fixedIngredient>Frankenstein_GoreBag</fixedIngredient>
+        <costPerPawn>100</costPerPawn>
+        <startingIngredientCount>800</startingIngredientCount>
+        <maxIngredientCount>800</maxIngredientCount>
+        <spawnEffecter>WarqueenWarUrchinsSpawned</spawnEffecter>
+        <spawnedMechEffecter>WarUrchinSpawned</spawnedMechEffecter>
+        <attachSpawnedEffecter>true</attachSpawnedEffecter>
+        <attachSpawnedMechEffecter>true</attachSpawnedMechEffecter>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Frankenstein_SdKfz251_AssaultRifle-->
+  <ThingDef ParentName="Frankenstein_SdKfz251Base">
+    <defName>Frankenstein_SdKfz251_AssaultRifle</defName>
+    <label>(Frankenstein)SdKfz251_AssaultRifle</label>
+    <description>ToDo.</description>
+    <comps>
+      <li Class="CompProperties_MechCarrier">
+        <spawnPawnKind>Frankenstein_Soldier_AssaultRifleSpawned</spawnPawnKind>
+        <fixedIngredient>Frankenstein_GoreBag</fixedIngredient>
+        <costPerPawn>100</costPerPawn>
+        <startingIngredientCount>800</startingIngredientCount>
+        <maxIngredientCount>800</maxIngredientCount>
+        <spawnEffecter>WarqueenWarUrchinsSpawned</spawnEffecter>
+        <spawnedMechEffecter>WarUrchinSpawned</spawnedMechEffecter>
+        <attachSpawnedEffecter>true</attachSpawnedEffecter>
+        <attachSpawnedMechEffecter>true</attachSpawnedMechEffecter>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Frankenstein_SdKfz251_Rifle-->
+  <ThingDef ParentName="Frankenstein_SdKfz251Base">
+    <defName>Frankenstein_SdKfz251_Rifle</defName>
+    <label>(Frankenstein)SdKfz251_Rifle</label>
+    <description>ToDo.</description>
+    <comps>
+      <li Class="CompProperties_MechCarrier">
+        <spawnPawnKind>Frankenstein_Soldier_RifleSpawned</spawnPawnKind>
+        <fixedIngredient>Frankenstein_GoreBag</fixedIngredient>
+        <costPerPawn>100</costPerPawn>
+        <startingIngredientCount>800</startingIngredientCount>
+        <maxIngredientCount>800</maxIngredientCount>
+        <spawnEffecter>WarqueenWarUrchinsSpawned</spawnEffecter>
+        <spawnedMechEffecter>WarUrchinSpawned</spawnedMechEffecter>
+        <attachSpawnedEffecter>true</attachSpawnedEffecter>
+        <attachSpawnedMechEffecter>true</attachSpawnedMechEffecter>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Frankenstein_SdKfz251_Rocket-->
+  <ThingDef ParentName="Frankenstein_SdKfz251Base">
+    <defName>Frankenstein_SdKfz251_Rocket</defName>
+    <label>(Frankenstein)SdKfz251_Rocket</label>
+    <description>ToDo.</description>
+    <comps>
+      <li Class="CompProperties_MechCarrier">
+        <spawnPawnKind>Frankenstein_Soldier_RocketSpawned</spawnPawnKind>
+        <fixedIngredient>Frankenstein_GoreBag</fixedIngredient>
+        <costPerPawn>100</costPerPawn>
+        <startingIngredientCount>800</startingIngredientCount>
+        <maxIngredientCount>800</maxIngredientCount>
+        <spawnEffecter>WarqueenWarUrchinsSpawned</spawnEffecter>
+        <spawnedMechEffecter>WarUrchinSpawned</spawnedMechEffecter>
+        <attachSpawnedEffecter>true</attachSpawnedEffecter>
+        <attachSpawnedMechEffecter>true</attachSpawnedMechEffecter>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+</Defs>

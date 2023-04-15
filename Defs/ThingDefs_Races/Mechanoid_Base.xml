@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- <ThingCategoryDef>
+      <defName>FrankensteinArmyCorpse</defName>
+      <label>Frankenstein Army corpses</label>
+      <parent>Corpses</parent>
+    </ThingCategoryDef>
+
+  <FleshTypeDef>
+    <defName>Frankenstein_MostlyFlesh</defName>
+    <corpseCategory>FrankensteinArmyCorpse</corpseCategory>
+    <damageEffecter>Damage_HitFlesh</damageEffecter>
+    <genericWounds>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundFleshA</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundFleshB</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundFleshC</texture>
+      </li>
+    </genericWounds>
+    <bandagedWounds>
+      <li>
+        <texture>Things/Pawn/Wounds/BandagedA</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/BandagedB</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/BandagedC</texture>
+      </li>
+    </bandagedWounds>
+  </FleshTypeDef>
+
+  <FleshTypeDef>
+    <defName>Frankenstein_MostlymMetal</defName>
+    <corpseCategory>FrankensteinArmyCorpse</corpseCategory>
+    <damageEffecter>Damage_HitMechanoid</damageEffecter>
+    <genericWounds>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundMechA</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundMechB</texture>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/WoundMechC</texture>
+      </li>
+    </genericWounds>
+  </FleshTypeDef> -->
+
+  <ThingDef Name="Frankenstein_Light" ParentName="LightMechanoid" Abstract="True">
+    <!-- <butcherProducts Inherit="False">
+      <Frankenstein_GoreBag>100</Frankenstein_GoreBag>
+    </butcherProducts> -->
+    <!-- <race>
+      <fleshType>Frankenstein_MostlyFlesh</fleshType>
+      <bloodDef>Filth_Blood</bloodDef>
+    </race> -->
+  </ThingDef>
+
+  <ThingDef Name="Frankenstein_Medium" ParentName="LancerMechanoidWalker" Abstract="True">
+  </ThingDef>
+
+  <ThingDef Name="Frankenstein_Heavy" ParentName="HeavyMechanoid" Abstract="True">
+  </ThingDef>
+
+  <ThingDef Name="Frankenstein_SuperHeavy" ParentName="SuperHeavyMechanoid" Abstract="True">
+  </ThingDef>
+
+</Defs>

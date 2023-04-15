@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="BaseFrankensteinResurrectionRecipe" ParentName="BaseFrankensteinRecipe" Abstract="True">
+    <mechResurrection>true</mechResurrection>
+    <jobString>Resurrecting zombot.</jobString>
+    <fixedIngredientFilter>
+      <specialFiltersToAllow>
+        <li>AllowCorpsesMechFriendly</li>
+      </specialFiltersToAllow>
+    </fixedIngredientFilter>
+    <forceHiddenSpecialFilters>
+      <li>AllowCorpsesMechFriendly</li>
+    </forceHiddenSpecialFilters>
+  </RecipeDef>
+
+  <RecipeDef ParentName="BaseFrankensteinResurrectionRecipe">
+    <defName>ResurrectLightZombot</defName>
+    <label>resurrect light zombot</label>
+    <description>ToDo.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Frankenstein_GoreBag</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Frankenstein_Soldier_SubMachinegun</li>
+        <li>Corpse_Frankenstein_Soldier_AssaultRifle</li>
+        <li>Corpse_Frankenstein_Soldier_Rifle</li>
+        <li>Corpse_Frankenstein_Soldier_Rocket</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef ParentName="BaseFrankensteinResurrectionRecipe">
+    <defName>ResurrectSuperHeavyZombot</defName>
+    <label>resurrect superHeavy zombot</label>
+    <description>ToDo.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Frankenstein_GoreBag</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Frankenstein_SdKfz251_Flak</li>
+        <li>Corpse_Frankenstein_SdKfz251_SubMachinegun</li>
+        <li>Corpse_Frankenstein_SdKfz251_AssaultRifle</li>
+        <li>Corpse_Frankenstein_SdKfz251_Rifle</li>
+        <li>Corpse_Frankenstein_SdKfz251_Rocket</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+
+</Defs>

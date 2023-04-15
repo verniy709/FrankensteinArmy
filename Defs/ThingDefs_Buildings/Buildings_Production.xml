@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsFrankenstein_Workshop</defName>
+    <label>make things at Frankenstein's workshop</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Smithing</workType>
+    <priorityInType>211</priorityInType>
+    <fixedBillGiverDefs>
+      <li>Frankenstein_Workshop</li>
+    </fixedBillGiverDefs>
+    <verb>work at</verb>
+    <gerund>working at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  
+  <ThingDef ParentName="MechGestatorBase">
+    <defName>Frankenstein_Workshop</defName>
+    <label>(Frankenstein)Workshop</label>
+    <description>ToDo</description>
+    <graphicData>
+      <texPath>Things/Building/Production/MechGestatorStandard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(5.6,4)</drawSize>
+      <shadowData>
+        <volume>(3, 2, 1.9)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Things/Building/Production/MechGestatorStandard_MenuIcon</uiIconPath>
+    <uiIconScale>1.85</uiIconScale>
+    <interactionCellOffset>(1,0,2)</interactionCellOffset>
+    <recipes>
+      <!-- <li>Frankenstein_CollectGoreBag_NewMeat</li>
+      <li>Frankenstein_CollectGoreBag_Light</li>
+      <li>Frankenstein_CollectGoreBag_SuperHeavy</li> -->
+      <li>ResurrectLightZombot</li>
+      <li>ResurrectSuperHeavyZombot</li>
+      <li>Frankenstein_Soldier_SubMachinegun</li>
+      <li>Frankenstein_Soldier_AssaultRifle</li>
+      <li>Frankenstein_Soldier_Rifle</li>
+      <li>Frankenstein_Soldier_Rocket</li>
+      <li>Frankenstein_SdKfz251_Flak</li>
+      <li>Frankenstein_SdKfz251_SubMachinegun</li>
+      <li>Frankenstein_SdKfz251_AssaultRifle</li>
+      <li>Frankenstein_SdKfz251_Rifle</li>
+      <li>Frankenstein_SdKfz251_Rocket</li>
+    </recipes>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+      <Mass>25</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <size>(3,2)</size>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>BasicMechtech</li>
+    </researchPrerequisites>
+    <building>
+      <barDrawData>
+        <north>
+          <preRotationOffset>(-1.135, 0.894)</preRotationOffset>
+          <size>(0.691, 0.1)</size>
+        </north>
+        <south>
+          <preRotationOffset>(-1.133, 0.83)</preRotationOffset>
+          <size>(0.736, 0.0863)</size>
+        </south>
+        <east>
+          <preRotationOffset>(1.068, -0.971)</preRotationOffset>
+          <size>(0.812, 0.09)</size>
+        </east>
+        <west>
+          <preRotationOffset>(-1.11, -0.93)</preRotationOffset>
+          <size>(0.812, 0.09)</size>
+        </west>
+      </barDrawData>
+      <formingGraphicData>
+        <texPath>Things/Pawn/Mechanoid/HalfGestatedMechSmall</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1,1)</drawSize>
+      </formingGraphicData>
+      <formingMechPerRotationOffset>
+        <li>(0, 0, 0.45)</li>
+        <li>(0, 0, 0.45)</li>
+        <li>(0, 0, 0.45)</li>
+        <li>(0, 0, 0.45)</li>
+      </formingMechPerRotationOffset>
+      <mechGestatorCylinderGraphic>
+        <texPath>Things/Building/Production/MechGestatorStandardGlass</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(5.6,4)</drawSize>
+        <shaderType>Transparent</shaderType>
+      </mechGestatorCylinderGraphic>
+      <mechGestatorTopGraphic>
+        <texPath>Things/Building/Production/MechGestatorStandardTop</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(5.6,4)</drawSize>
+      </mechGestatorTopGraphic>
+      <gestatorFormingMote>
+        <north>MechGestatorForming_North</north>
+        <east>MechGestatorForming_East</east>
+        <west>MechGestatorForming_East</west>
+        <south>MechGestatorForming_South</south>
+      </gestatorFormingMote>
+      <gestatorCycleCompleteMote>
+        <north>MechGestatorCycleComplete_North</north>
+        <east>MechGestatorCycleComplete_East</east>
+        <west>MechGestatorCycleComplete_East</west>
+        <south>MechGestatorCycleComplete_South</south>
+      </gestatorCycleCompleteMote>
+      <gestatorFormedMote>
+        <north>MechGestatorFormed_North</north>
+        <east>MechGestatorFormed_East</east>
+        <west>MechGestatorFormed_East</west>
+        <south>MechGestatorFormed_South</south>
+      </gestatorFormedMote>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>350</basePowerConsumption>
+        <idlePowerDraw>50</idlePowerDraw>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>
