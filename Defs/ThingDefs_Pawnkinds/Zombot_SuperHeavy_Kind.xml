@@ -7,7 +7,7 @@
     <label>(Frankenstein)SdKfz251_Flak</label>
     <labelPlural>(Frankenstein)SdKfz251_Flaks</labelPlural>
     <race>Frankenstein_SdKfz251_Flak</race>
-    <combatPower>900</combatPower>
+    <combatPower>800</combatPower>
     <maxPerGroup>2</maxPerGroup>
     <allowInMechClusters>false</allowInMechClusters>  
     <lifeStages>
@@ -34,7 +34,7 @@
     <label>(Frankenstein)SdKfz251_SubMachinegun</label>
     <labelPlural>(Frankenstein)SdKfz251_SubMachinegun</labelPlural>
     <race>Frankenstein_SdKfz251_SubMachinegun</race>
-    <combatPower>900</combatPower>
+    <combatPower>800</combatPower>
     <maxPerGroup>2</maxPerGroup>
     <allowInMechClusters>false</allowInMechClusters>   
     <lifeStages>
@@ -61,7 +61,7 @@
     <label>(Frankenstein)SdKfz251_AssaultRifle</label>
     <labelPlural>(Frankenstein)SdKfz251_AssaultRifle</labelPlural>
     <race>Frankenstein_SdKfz251_AssaultRifle</race>
-    <combatPower>900</combatPower>
+    <combatPower>800</combatPower>
     <maxPerGroup>2</maxPerGroup>
     <allowInMechClusters>false</allowInMechClusters>   
     <lifeStages>
@@ -88,7 +88,7 @@
     <label>(Frankenstein)SdKfz251_Rifle</label>
     <labelPlural>(Frankenstein)SdKfz251_Rifle</labelPlural>
     <race>Frankenstein_SdKfz251_Rifle</race>
-    <combatPower>900</combatPower>
+    <combatPower>800</combatPower>
     <maxPerGroup>2</maxPerGroup>
     <allowInMechClusters>false</allowInMechClusters>   
     <lifeStages>
@@ -115,7 +115,7 @@
     <label>(Frankenstein)SdKfz251_Rocket</label>
     <labelPlural>(Frankenstein)SdKfz251_Rocket</labelPlural>
     <race>Frankenstein_SdKfz251_Rocket</race>
-    <combatPower>900</combatPower>
+    <combatPower>800</combatPower>
     <maxPerGroup>2</maxPerGroup>
     <allowInMechClusters>false</allowInMechClusters>   
     <lifeStages>

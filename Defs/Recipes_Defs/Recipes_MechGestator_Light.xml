@@ -3,9 +3,9 @@
 
   <RecipeDef Name="BaseFrankensteinRecipe" Abstract="True">
     <jobString>Assembling zombot.</jobString>
-    <workAmount>1800</workAmount>
+    <workAmount>1000</workAmount>
     <gestationCycles>1</gestationCycles>
-    <formingTicks>30000</formingTicks>
+    <formingTicks>15000</formingTicks>
     <mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>
     <workSpeedStat>MechFormingSpeed</workSpeedStat>
     <soundWorking>MechGestatorCycle_Initiating</soundWorking>
@@ -23,6 +23,54 @@
         <count>100</count>
       </li>
     </ingredients>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LightFrankensteinRecipe">
+    <defName>Frankenstein_PODHans</defName>
+    <label>(Frankenstein)PODHans</label>
+    <description>ToDo.</description>
+    <products>
+      <Frankenstein_PODHans>1</Frankenstein_PODHans>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Frankenstein_PODHans</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LightFrankensteinRecipe">
+    <defName>Frankenstein_PODHelga</defName>
+    <label>(Frankenstein)PODHelga</label>
+    <description>ToDo.</description>
+    <products>
+      <Frankenstein_PODHelga>1</Frankenstein_PODHelga>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Frankenstein_PODHelga</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LightFrankensteinRecipe">
+    <defName>Frankenstein_PODHeinrich</defName>
+    <label>(Frankenstein)PODHeinrich</label>
+    <description>ToDo.</description>
+    <products>
+      <Frankenstein_PODHeinrich>1</Frankenstein_PODHeinrich>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Frankenstein_PODHeinrich</ThingDef>
+    </descriptionHyperlinks>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LightFrankensteinRecipe">
+    <defName>Frankenstein_Yarn</defName>
+    <label>(Frankenstein)Yarn</label>
+    <description>ToDo.</description>
+    <products>
+      <Frankenstein_Yarn>1</Frankenstein_Yarn>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>Frankenstein_Yarn</ThingDef>
+    </descriptionHyperlinks>
   </RecipeDef>
 
   <RecipeDef ParentName="LightFrankensteinRecipe">

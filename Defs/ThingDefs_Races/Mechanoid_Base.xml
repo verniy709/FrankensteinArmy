@@ -62,7 +62,7 @@
     </race> -->
   </ThingDef>
 
-  <ThingDef Name="Frankenstein_Medium" ParentName="LancerMechanoidWalker" Abstract="True">
+  <ThingDef Name="Frankenstein_Medium" ParentName="BaseMechanoidWalker" Abstract="True">
   </ThingDef>
 
   <ThingDef Name="Frankenstein_Heavy" ParentName="HeavyMechanoid" Abstract="True">

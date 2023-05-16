@@ -33,15 +33,27 @@
     <uiIconScale>1.85</uiIconScale>
     <interactionCellOffset>(1,0,2)</interactionCellOffset>
     <recipes>
-      <!-- <li>Frankenstein_CollectGoreBag_NewMeat</li>
-      <li>Frankenstein_CollectGoreBag_Light</li>
-      <li>Frankenstein_CollectGoreBag_SuperHeavy</li> -->
       <li>ResurrectLightZombot</li>
+      <li>ResurrectMediumZombot</li>
+      <li>ResurrectHeavyZombot</li>
       <li>ResurrectSuperHeavyZombot</li>
+      <li>Frankenstein_PODHans</li>
+      <li>Frankenstein_PODHelga</li>
+      <li>Frankenstein_PODHeinrich</li>
+      <li>Frankenstein_Yarn</li>
       <li>Frankenstein_Soldier_SubMachinegun</li>
       <li>Frankenstein_Soldier_AssaultRifle</li>
       <li>Frankenstein_Soldier_Rifle</li>
       <li>Frankenstein_Soldier_Rocket</li>
+      <li>Frankenstein_Match</li>
+      <li>Frankenstein_Hound</li>
+      <li>Frankenstein_Razor</li>
+      <li>Frankenstein_Drill</li>
+      <li>Frankenstein_Needle</li>
+      <li>Frankenstein_Hammer</li>
+      <li>Frankenstein_Cauldron</li>
+      <li>Frankenstein_PropellerA</li>
+      <li>Frankenstein_PropellerB</li>
       <li>Frankenstein_SdKfz251_Flak</li>
       <li>Frankenstein_SdKfz251_SubMachinegun</li>
       <li>Frankenstein_SdKfz251_AssaultRifle</li>

@@ -33,15 +33,84 @@
             <li>Frankenstein_GoreBag</li>
           </thingDefs>
         </filter>
-        <count>5</count>
+        <count>10</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
+        <li>Corpse_Frankenstein_PODHans</li>
+        <li>Corpse_Frankenstein_PODHelga</li>
+        <li>Corpse_Frankenstein_PODHeinrich</li>
+        <li>Corpse_Frankenstein_Yarn</li>
         <li>Corpse_Frankenstein_Soldier_SubMachinegun</li>
         <li>Corpse_Frankenstein_Soldier_AssaultRifle</li>
         <li>Corpse_Frankenstein_Soldier_Rifle</li>
         <li>Corpse_Frankenstein_Soldier_Rocket</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef ParentName="BaseFrankensteinResurrectionRecipe">
+    <defName>ResurrectMediumZombot</defName>
+    <label>resurrect medium zombot</label>
+    <description>ToDo.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Frankenstein_GoreBag</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Frankenstein_Match</li>
+        <li>Corpse_Frankenstein_Hound</li>
+        <li>Corpse_Frankenstein_Razor</li>
+        <li>Corpse_Frankenstein_Drill</li>
+        <li>Corpse_Frankenstein_Needle</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef ParentName="BaseFrankensteinResurrectionRecipe">
+    <defName>ResurrectHeavyZombot</defName>
+    <label>resurrect heavy zombot</label>
+    <description>ToDo.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Frankenstein_GoreBag</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Frankenstein_Hammer</li>
+        <li>Corpse_Frankenstein_Cauldron</li>
+        <li>Corpse_Frankenstein_PropellerA</li>
+        <li>Corpse_Frankenstein_PropellerB</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -65,7 +134,7 @@
             <li>Frankenstein_GoreBag</li>
           </thingDefs>
         </filter>
-        <count>40</count>
+        <count>80</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>

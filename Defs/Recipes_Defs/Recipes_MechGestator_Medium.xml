@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  
+	<RecipeDef Name="MediumFrankensteinRecipe" ParentName="BaseFrankensteinRecipe" Abstract="True">
+		<gestationCycles>2</gestationCycles>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Frankenstein_GoreBag</li>
+					</thingDefs>
+				</filter>
+				<count>150</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MediumFrankensteinRecipe">
+		<defName>Frankenstein_Match</defName>
+		<label>(Frankenstein)Match</label>
+		<description>ToDo.</description>
+		<products>
+			<Frankenstein_Match>1</Frankenstein_Match>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Frankenstein_Match</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MediumFrankensteinRecipe">
+		<defName>Frankenstein_Hound</defName>
+		<label>(Frankenstein)Hound</label>
+		<description>ToDo.</description>
+		<products>
+			<Frankenstein_Hound>1</Frankenstein_Hound>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Frankenstein_Hound</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MediumFrankensteinRecipe">
+		<defName>Frankenstein_Razor</defName>
+		<label>(Frankenstein)Razor</label>
+		<description>ToDo.</description>
+		<products>
+			<Frankenstein_Razor>1</Frankenstein_Razor>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Frankenstein_Razor</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MediumFrankensteinRecipe">
+		<defName>Frankenstein_Drill</defName>
+		<label>(Frankenstein)Drill</label>
+		<description>ToDo.</description>
+		<products>
+			<Frankenstein_Drill>1</Frankenstein_Drill>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Frankenstein_Drill</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MediumFrankensteinRecipe">
+		<defName>Frankenstein_Needle</defName>
+		<label>(Frankenstein)Needle</label>
+		<description>ToDo.</description>
+		<products>
+			<Frankenstein_Needle>1</Frankenstein_Needle>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Frankenstein_Needle</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
 
 </Defs>

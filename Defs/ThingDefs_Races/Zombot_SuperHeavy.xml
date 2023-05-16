@@ -4,9 +4,12 @@
   <!-- Frankenstein_SdKfz251Base-->
   <ThingDef Name="Frankenstein_SdKfz251Base" ParentName="Frankenstein_SuperHeavy" Abstract="True">
     <statBases>
-      <MoveSpeed>7.5</MoveSpeed>
+      <MoveSpeed>7.0</MoveSpeed>
       <EMPResistance>0.3</EMPResistance>
       <MarketValue>2000</MarketValue>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+      <BandwidthCost>6</BandwidthCost>
     </statBases>
     <race>
       <body>Mech_Warqueen</body>
@@ -20,8 +23,11 @@
           <soundCall>Pawn_Mech_Warqueen_Call</soundCall>
         </li>
       </lifeStageAges>
-      <baseHealthScale>4.5</baseHealthScale>
+      <baseHealthScale>4.0</baseHealthScale>
     </race>
+    <butcherProducts>
+      <Frankenstein_GoreBag>720</Frankenstein_GoreBag>
+    </butcherProducts>
     <tools Inherit="False">
       <li>
         <label>head</label>
@@ -33,92 +39,6 @@
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
-      </li>
-    </tools>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseGun">
-    <defName>Frankenstein_Flak</defName>
-    <label>(Frankenstein)Flak</label>
-    <description>ToDo.</description>
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
-    <graphicData>
-      <texPath>Frankenstein_Null</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <MarketValue>1000</MarketValue>
-      <Mass>20</Mass>
-      <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
-    </statBases>
-    <weaponTags>
-      <li>Frankenstein_Flak</li>
-    </weaponTags>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_Rocket</defaultProjectile>
-        <forcedMissRadius>2.9</forcedMissRadius>
-        <warmupTime>4.5</warmupTime>
-        <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
-        <range>51.9</range>
-        <burstShotCount>1</burstShotCount>
-        <soundCast>InfernoCannon_Fire</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <muzzleFlashScale>14</muzzleFlashScale>
-      </li>
-    </verbs>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseGun">
-    <defName>Frankenstein_Machinegun</defName>
-    <label>(Frankenstein)Machinegun</label>
-    <description>ToDo.</description>
-    <tradeability>None</tradeability>
-    <destroyOnDrop>true</destroyOnDrop>
-    <graphicData>
-      <texPath>Frankenstein_Null</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <MarketValue>400</MarketValue>
-      <Mass>5.0</Mass>
-      <AccuracyTouch>0.15</AccuracyTouch>
-      <AccuracyShort>0.25</AccuracyShort>
-      <AccuracyMedium>0.25</AccuracyMedium>
-      <AccuracyLong>0.20</AccuracyLong>
-      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
-    </statBases>
-    <weaponTags>
-      <li>Frankenstein_Machinegun</li>
-    </weaponTags>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_Minigun</defaultProjectile>
-        <warmupTime>2.0</warmupTime>
-        <range>37.9</range>
-        <burstShotCount>25</burstShotCount>
-        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-        <soundCast>Shot_Minigun</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>barrels</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>11.7</power>
-        <cooldownTime>2.6</cooldownTime>
       </li>
     </tools>
   </ThingDef>
@@ -209,6 +129,5 @@
       </li>
     </comps>
   </ThingDef>
-
 
 </Defs>

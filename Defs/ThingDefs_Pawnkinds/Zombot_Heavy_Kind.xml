@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Frankenstein_Hammer-->
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>Frankenstein_Hammer</defName>
+    <label>(Frankenstein)Hammer</label>
+    <race>Frankenstein_Hammer</race>
+    <combatPower>250</combatPower>
+    <weaponMoney>9999~9999</weaponMoney>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Hammer</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>2.0</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponTags>
+      <li>Frankenstein_FlameGun</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Frankenstein_Cauldron-->
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>Frankenstein_Cauldron</defName>
+    <label>(Frankenstein)Cauldron</label>
+    <race>Frankenstein_Cauldron</race>
+    <combatPower>450</combatPower>
+    <maxPerGroup>3</maxPerGroup>
+    <weaponMoney>9999~9999</weaponMoney>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Cauldron</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>2.15</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponTags>
+      <li>Frankenstein_HellCannon</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Frankenstein_PropellerA-->
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>Frankenstein_PropellerA</defName>
+    <label>(Frankenstein)PropellerA</label>
+    <race>Frankenstein_PropellerA</race>
+    <combatPower>350</combatPower>
+    <weaponMoney>9999~9999</weaponMoney>
+    <allowInMechClusters>false</allowInMechClusters>
+    <isGoodBreacher>true</isGoodBreacher>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_PropellerA</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>2.4</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponTags>
+      <li>Frankenstein_Maul</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <!-- Frankenstein_PropellerB-->
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>Frankenstein_PropellerB</defName>
+    <label>(Frankenstein)PropellerB</label>
+    <race>Frankenstein_PropellerB</race>
+    <combatPower>350</combatPower>
+    <weaponMoney>9999~9999</weaponMoney>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_PropellerB</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>2.4</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponTags>
+      <li>Frankenstein_Machinegun</li>
+    </weaponTags>
+  </PawnKindDef>
+
+</Defs>

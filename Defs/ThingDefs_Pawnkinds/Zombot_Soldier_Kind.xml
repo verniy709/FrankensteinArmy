@@ -7,7 +7,7 @@
     <label>(Frankenstein)Soldier_SubMachinegun</label>
     <labelPlural>(Frankenstein)Soldier_SubMachineguns</labelPlural>
     <race>Frankenstein_Soldier_SubMachinegun</race>
-    <combatPower>120</combatPower>
+    <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
       <li>
@@ -31,7 +31,7 @@
     <label>(Frankenstein)Soldier_SubMachinegun</label>
     <labelPlural>(Frankenstein)Soldier_SubMachineguns</labelPlural>
     <race>Frankenstein_Soldier_SubMachinegunSpawned</race>
-    <combatPower>120</combatPower>
+    <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <forceNoDeathNotification>true</forceNoDeathNotification>
     <lifeStages>
@@ -57,9 +57,8 @@
     <label>(Frankenstein)Soldier_AssaultRifle</label>
     <labelPlural>(Frankenstein)Soldier_AssaultRifles</labelPlural>
     <race>Frankenstein_Soldier_AssaultRifle</race>
-    <combatPower>120</combatPower>
+    <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
-
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -82,7 +81,7 @@
     <label>(Frankenstein)Soldier_AssaultRifle</label>
     <labelPlural>(Frankenstein)Soldier_AssaultRifles</labelPlural>
     <race>Frankenstein_Soldier_AssaultRifleSpawned</race>
-    <combatPower>120</combatPower>
+    <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <forceNoDeathNotification>true</forceNoDeathNotification>
     <lifeStages>
@@ -108,9 +107,8 @@
     <label>(Frankenstein)Soldier_Rifle</label>
     <labelPlural>(Frankenstein)Soldier_Rifles</labelPlural>
     <race>Frankenstein_Soldier_Rifle</race>
-    <combatPower>120</combatPower>
+    <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
-
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -133,7 +131,7 @@
     <label>(Frankenstein)Soldier_Rifle</label>
     <labelPlural>(Frankenstein)Soldier_Rifles</labelPlural>
     <race>Frankenstein_Soldier_RifleSpawned</race>
-    <combatPower>120</combatPower>
+    <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <forceNoDeathNotification>true</forceNoDeathNotification>
     <lifeStages>
@@ -159,9 +157,8 @@
     <label>(Frankenstein)Soldier_Rocket</label>
     <labelPlural>(Frankenstein)Soldier_Rockets</labelPlural>
     <race>Frankenstein_Soldier_Rocket</race>
-    <combatPower>120</combatPower>
+    <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
-    
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -184,7 +181,7 @@
     <label>(Frankenstein)Soldier_Rocket</label>
     <labelPlural>(Frankenstein)Soldier_Rockets</labelPlural>
     <race>Frankenstein_Soldier_RocketSpawned</race>
-    <combatPower>120</combatPower>
+    <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
     <forceNoDeathNotification>true</forceNoDeathNotification>
     <lifeStages>

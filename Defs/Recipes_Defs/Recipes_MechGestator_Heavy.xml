@@ -1,6 +1,66 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<RecipeDef Name="HeavyFrankensteinRecipe" ParentName="BaseFrankensteinRecipe" Abstract="True">
+		<gestationCycles>4</gestationCycles>
+		<ingredients Inherit="False">
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Frankenstein_GoreBag</li>
+					</thingDefs>
+				</filter>
+				<count>300</count>
+			</li>
+		</ingredients>
+	</RecipeDef>
 
+	<RecipeDef ParentName="HeavyFrankensteinRecipe">
+		<defName>Frankenstein_Hammer</defName>
+		<label>(Frankenstein)Hammer</label>
+		<description>ToDo.</description>
+		<products>
+			<Frankenstein_Hammer>1</Frankenstein_Hammer>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Frankenstein_Hammer</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+
+	<RecipeDef ParentName="HeavyFrankensteinRecipe">
+		<defName>Frankenstein_Cauldron</defName>
+		<label>(Frankenstein)Cauldron</label>
+		<description>ToDo.</description>
+		<products>
+			<Frankenstein_Cauldron>1</Frankenstein_Cauldron>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Frankenstein_Cauldron</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+
+	<RecipeDef ParentName="HeavyFrankensteinRecipe">
+		<defName>Frankenstein_PropellerA</defName>
+		<label>(Frankenstein)PropellerA</label>
+		<description>ToDo.</description>
+		<products>
+			<Frankenstein_PropellerA>1</Frankenstein_PropellerA>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Frankenstein_PropellerB</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
+
+	<RecipeDef ParentName="HeavyFrankensteinRecipe">
+		<defName>Frankenstein_PropellerB</defName>
+		<label>(Frankenstein)PropellerB</label>
+		<description>ToDo.</description>
+		<products>
+			<Frankenstein_PropellerB>1</Frankenstein_PropellerB>
+		</products>
+		<descriptionHyperlinks>
+			<ThingDef>Frankenstein_PropellerA</ThingDef>
+		</descriptionHyperlinks>
+	</RecipeDef>
 
 </Defs>

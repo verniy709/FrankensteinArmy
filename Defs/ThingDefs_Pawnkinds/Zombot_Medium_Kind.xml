@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Frankenstein_Match-->
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>Frankenstein_Match</defName>
+    <label>(Frankenstein)Match</label>
+    <race>Frankenstein_Match</race>
+    <combatPower>140</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Match</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.6</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Frankenstein_Hound-->
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>Frankenstein_Hound</defName>
+    <label>(Frankenstein)Hound</label>
+    <race>Frankenstein_Hound</race>
+    <combatPower>140</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Hound</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.6</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Frankenstein_Razor-->
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>Frankenstein_Razor</defName>
+    <label>(Frankenstein)Razor</label>
+    <race>Frankenstein_Razor</race>
+    <combatPower>140</combatPower>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Razor</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.7</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Frankenstein_Drill-->
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>Frankenstein_Drill</defName>
+    <label>(Frankenstein)Drill</label>
+    <race>Frankenstein_Drill</race>
+    <combatPower>140</combatPower>
+    <abilities>
+      <li>LongjumpMech</li>
+    </abilities>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Drill</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.8</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  <!-- Frankenstein_Needle-->
+  <PawnKindDef ParentName="BaseMechanoidKind">
+    <defName>Frankenstein_Needle</defName>
+    <label>(Frankenstein)Needle</label>
+    <race>Frankenstein_Needle</race>
+    <combatPower>140</combatPower>
+    <maxPerGroup>3</maxPerGroup>
+    <abilities>
+      <li>ResurrectionMech</li>
+    </abilities>
+    <allowInMechClusters>false</allowInMechClusters>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Mechanoid/Frankenstein_Needle</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.65</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.5, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

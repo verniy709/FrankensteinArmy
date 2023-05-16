@@ -6,19 +6,25 @@
     <statBases>
       <MoveSpeed>4.0</MoveSpeed>
       <EMPResistance>0.3</EMPResistance>
-      <MarketValue>200</MarketValue>
+      <MarketValue>100</MarketValue>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <BandwidthCost>1</BandwidthCost>
     </statBases>
     <race>
-      <baseBodySize>1.1</baseBodySize>
-      <baseHealthScale>1.3</baseHealthScale>
+      <baseBodySize>0.7</baseBodySize>
+      <baseHealthScale>1.0</baseHealthScale>
     </race>
+    <butcherProducts>
+      <Frankenstein_GoreBag>90</Frankenstein_GoreBag>
+    </butcherProducts>
     <tools Inherit="False">
       <li>
         <label>head</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>10</power>
+        <power>12</power>
         <cooldownTime>3</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -42,7 +48,7 @@
         <li>Construction</li>
         <li>Mining</li>
       </mechEnabledWorkTypes>
-      <lifeStageAges>
+      <lifeStageAges Inherit="False">
         <li>
           <def>MechanoidFullyFormed</def>
           <minAge>0</minAge>
@@ -70,13 +76,13 @@
         <li>Growing</li>
         <li>Doctor</li>
       </mechEnabledWorkTypes>
-      <lifeStageAges>
+      <lifeStageAges Inherit="False">
         <li>
           <def>MechanoidFullyFormed</def>
           <minAge>0</minAge>
-          <soundWounded>Pawn_Mech_Lifter_Wounded</soundWounded>
-          <soundDeath>Pawn_Mech_Lifter_Death</soundDeath>
-          <soundCall>Pawn_Mech_Lifter_Call</soundCall>
+          <soundWounded>Pawn_Mech_Agrihand_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Agrihand_Death</soundDeath>
+          <soundCall>Pawn_Mech_Agrihand_Call</soundCall>
         </li>
       </lifeStageAges>
     </race>
@@ -89,7 +95,7 @@
     <description>ToDo.</description>
     <statBases>
       <MarketValue>500</MarketValue>
-      <MoveSpeed>3.2</MoveSpeed>
+      <MoveSpeed>3.0</MoveSpeed>
       <EnergyShieldRechargeRate>0.25</EnergyShieldRechargeRate>
       <EnergyShieldEnergyMax>1.5</EnergyShieldEnergyMax>
       <BandwidthCost>2</BandwidthCost>
@@ -99,14 +105,15 @@
       <mechEnabledWorkTypes>
         <li>Hauling</li>
         <li>Firefighter</li>
+        <li>Research</li>
       </mechEnabledWorkTypes>
-      <lifeStageAges>
+      <lifeStageAges Inherit="False">
         <li>
           <def>MechanoidFullyFormed</def>
           <minAge>0</minAge>
-          <soundWounded>Pawn_Mech_Lifter_Wounded</soundWounded>
-          <soundDeath>Pawn_Mech_Lifter_Death</soundDeath>
-          <soundCall>Pawn_Mech_Lifter_Call</soundCall>
+          <soundWounded>Pawn_Mech_Legionary_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Legionary_Death</soundDeath>
+          <soundCall>Pawn_Mech_Legionary_Call</soundCall>
         </li>
       </lifeStageAges>
     </race>
@@ -140,9 +147,30 @@
           </li>
         </grains>
         <volumeRange>25</volumeRange>
-        <distRange>17~22</distRange>
+        <distRange>18~24</distRange>
       </li>
     </subSounds>
   </SoundDef>
+
+  <!-- Frankenstein_Yarn -->  
+  <ThingDef ParentName="Frankenstein_LightBase">
+    <defName>Frankenstein_Yarn</defName>
+    <label>(Frankenstein)Yarn</label>
+    <description>ToDo.</description>
+    <statBases>
+      <MoveSpeed>2.0</MoveSpeed>
+    </statBases>
+    <race>
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Militor_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Militor_Death</soundDeath>
+          <soundCall>Pawn_Mech_Militor_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+  </ThingDef>
 
 </Defs>

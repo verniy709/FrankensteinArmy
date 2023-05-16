@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Frankenstein_Heavy_Base-->
+  <ThingDef Name="Frankenstein_HeavyBase" ParentName="Frankenstein_Heavy" Abstract="True">
+    <statBases>
+      <MoveSpeed>3.5</MoveSpeed>
+      <EMPResistance>0.3</EMPResistance>
+      <MarketValue>200</MarketValue>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+      <BandwidthCost>4</BandwidthCost>
+    </statBases>
+    <race>
+      <baseBodySize>3.0</baseBodySize>
+      <baseHealthScale>1.8</baseHealthScale>
+      <body>Mech_Tunneler</body>
+    </race>
+    <butcherProducts>
+      <Frankenstein_GoreBag>270</Frankenstein_GoreBag>
+    </butcherProducts>
+    <tools Inherit="False">
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Frankenstein_Hammer -->  
+  <ThingDef ParentName="Frankenstein_HeavyBase">
+    <defName>Frankenstein_Hammer</defName>
+    <label>(Frankenstein)Hammer</label>
+    <description>ToDo.</description>
+    <statBases>
+      <FoodPoisonChance>0.001</FoodPoisonChance>
+    </statBases>
+    <race>
+      <mechEnabledWorkTypes>
+        <li>Hauling</li>
+        <li>Firefighter</li>
+        <li>Crafting</li>
+        <li>Smithing</li>
+        <li>Tailoring</li>
+        <li>Cooking</li>
+      </mechEnabledWorkTypes>
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Centurion_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Centurion_Death</soundDeath>
+          <soundCall>Pawn_Mech_Centurion_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <tools>
+      <li>
+        <label>hammer head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>34</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left crimper</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftPowerClaw</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+      <li>
+        <label>right circular saw</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightPowerClaw</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Frankenstein_Cauldron -->  
+  <ThingDef ParentName="Frankenstein_HeavyBase">
+    <defName>Frankenstein_Cauldron</defName>
+    <label>(Frankenstein)Cauldron</label>
+    <description>ToDo.</description>
+    <statBases>
+      <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.40</ArmorRating_Sharp>
+    </statBases>
+    <race>
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Diabolus_Wounded</soundWounded>
+            <soundDeath>Pawn_Mech_Diabolus_Death</soundDeath>
+            <soundCall>Pawn_Mech_Diabolus_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <tools>
+      <li>
+        <label>left crimper</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftPowerClaw</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+      <li>
+        <label>right barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>34</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightPowerClaw</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Frankenstein_PropellerA -->  
+  <ThingDef ParentName="Frankenstein_HeavyBase">
+    <defName>Frankenstein_PropellerA</defName>
+    <label>(Frankenstein)PropellerA</label>
+    <description>ToDo.</description>
+    <statBases>
+      <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.40</ArmorRating_Sharp>
+    </statBases>
+    <race>
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Tesseron_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Tesseron_Death</soundDeath>
+          <soundCall>Pawn_Mech_Tesseron_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <tools>
+      <li>
+        <label>propeller blade</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>38</power>
+        <cooldownTime>2.7</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftPowerClaw</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightPowerClaw</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!-- Frankenstein_PropellerB -->  
+  <ThingDef ParentName="Frankenstein_HeavyBase">
+    <defName>Frankenstein_PropellerB</defName>
+    <label>(Frankenstein)PropellerB</label>
+    <description>ToDo.</description>
+    <statBases>
+      <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.40</ArmorRating_Sharp>
+    </statBases>
+    <race>
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Tesseron_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Tesseron_Death</soundDeath>
+          <soundCall>Pawn_Mech_Tesseron_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <tools>
+      <li>
+        <label>propeller blade</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>38</power>
+        <cooldownTime>2.7</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftPowerClaw</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>30</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightPowerClaw</linkedBodyPartsGroup>
+        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

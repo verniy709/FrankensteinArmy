@@ -51,10 +51,58 @@
     </maxPawnCostPerTotalPointsCurve>
     <pawnGroupMakers>
       <li>
-        <!-- Motorized Infantry-->
+        <!-- Bloated Goliaths-->
+        <kindDef>Combat</kindDef>
+        <commonality>80</commonality>
+        <options>
+          <Frankenstein_Yarn>1</Frankenstein_Yarn>
+          <Frankenstein_Match>5</Frankenstein_Match>
+          <Frankenstein_Hound>5</Frankenstein_Hound>
+          <Frankenstein_Razor>5</Frankenstein_Razor>
+          <Frankenstein_Drill>5</Frankenstein_Drill>
+          <Frankenstein_Needle>2</Frankenstein_Needle>
+          <Frankenstein_Hammer>4</Frankenstein_Hammer>
+          <Frankenstein_Cauldron>2</Frankenstein_Cauldron>
+          <Frankenstein_PropellerA>2</Frankenstein_PropellerA>
+          <Frankenstein_PropellerB>2</Frankenstein_PropellerB>
+        </options>
+      </li>
+      <li>
+        <!-- Body Snatchers-->
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
+          <Frankenstein_Soldier_SubMachinegun>2</Frankenstein_Soldier_SubMachinegun>
+          <Frankenstein_Soldier_AssaultRifle>2</Frankenstein_Soldier_AssaultRifle>
+          <Frankenstein_Soldier_Rifle>2</Frankenstein_Soldier_Rifle>
+          <Frankenstein_Soldier_Rocket>2</Frankenstein_Soldier_Rocket>
+          <Frankenstein_PODHeinrich>2</Frankenstein_PODHeinrich>
+          <Frankenstein_PODHans>3</Frankenstein_PODHans>
+          <Frankenstein_PODHelga>3</Frankenstein_PODHelga>
+          <Frankenstein_Yarn>1</Frankenstein_Yarn>
+          <Frankenstein_Match>5</Frankenstein_Match>
+          <Frankenstein_Hound>5</Frankenstein_Hound>
+          <Frankenstein_Razor>5</Frankenstein_Razor>
+          <Frankenstein_Drill>5</Frankenstein_Drill>
+          <Frankenstein_Needle>2</Frankenstein_Needle>
+          <Frankenstein_Hammer>2</Frankenstein_Hammer>
+          <Frankenstein_Cauldron>1</Frankenstein_Cauldron>
+          <Frankenstein_PropellerA>1</Frankenstein_PropellerA>
+          <Frankenstein_PropellerB>1</Frankenstein_PropellerB>
+        </options>
+      </li>
+      <li>
+        <!-- Motorized Infantry-->
+        <kindDef>Combat</kindDef>
+        <commonality>80</commonality>
+        <options>
+          <Frankenstein_Soldier_SubMachinegun>10</Frankenstein_Soldier_SubMachinegun>
+          <Frankenstein_Soldier_AssaultRifle>10</Frankenstein_Soldier_AssaultRifle>
+          <Frankenstein_Soldier_Rifle>10</Frankenstein_Soldier_Rifle>
+          <Frankenstein_Soldier_Rocket>10</Frankenstein_Soldier_Rocket>
+          <Frankenstein_PODHeinrich>2</Frankenstein_PODHeinrich>
+          <Frankenstein_PODHans>3</Frankenstein_PODHans>
+          <Frankenstein_PODHelga>3</Frankenstein_PODHelga>
           <Frankenstein_SdKfz251_Flak>1</Frankenstein_SdKfz251_Flak>
           <Frankenstein_SdKfz251_SubMachinegun>1</Frankenstein_SdKfz251_SubMachinegun>
           <Frankenstein_SdKfz251_AssaultRifle>1</Frankenstein_SdKfz251_AssaultRifle>
