@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Frankenstein_PanzerIV.label>(FA)四号坦克</Frankenstein_PanzerIV.label>
+  <Frankenstein_PanzerIV.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_PanzerIV.description>
+  <Frankenstein_PanzerIV.jobString>组装僵尸机械中</Frankenstein_PanzerIV.jobString>
+
+  <Frankenstein_SdKfz251_SubMachinegun.label>(FA)SdKfz251冲锋枪兵</Frankenstein_SdKfz251_SubMachinegun.label>
+  <Frankenstein_SdKfz251_SubMachinegun.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_SdKfz251_SubMachinegun.description>
+  <Frankenstein_SdKfz251_SubMachinegun.jobString>组装僵尸机械中</Frankenstein_SdKfz251_SubMachinegun.jobString>
+
+  <Frankenstein_SdKfz251_AssaultRifle.label>(FA)SdKfz251突击步枪兵</Frankenstein_SdKfz251_AssaultRifle.label>
+  <Frankenstein_SdKfz251_AssaultRifle.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_SdKfz251_AssaultRifle.description>
+  <Frankenstein_SdKfz251_AssaultRifle.jobString>组装僵尸机械中</Frankenstein_SdKfz251_AssaultRifle.jobString>
+
+  <Frankenstein_SdKfz251_Rifle.label>(FA)SdKfz251步枪兵</Frankenstein_SdKfz251_Rifle.label>
+  <Frankenstein_SdKfz251_Rifle.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_SdKfz251_Rifle.description>
+  <Frankenstein_SdKfz251_Rifle.jobString>组装僵尸机械中</Frankenstein_SdKfz251_Rifle.jobString>
+
+  <Frankenstein_SdKfz251_Rocket.label>(FA)SdKfz251火箭发射器兵</Frankenstein_SdKfz251_Rocket.label>
+  <Frankenstein_SdKfz251_Rocket.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_SdKfz251_Rocket.description>
+  <Frankenstein_SdKfz251_Rocket.jobString>组装僵尸机械中</Frankenstein_SdKfz251_Rocket.jobString>
+
+
+</LanguageData>

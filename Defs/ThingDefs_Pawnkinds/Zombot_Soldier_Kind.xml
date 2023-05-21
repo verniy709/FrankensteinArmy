@@ -4,8 +4,8 @@
   <!-- Frankenstein_Soldier_SubMachinegun-->
   <PawnKindDef ParentName="LightMechanoidKind">
     <defName>Frankenstein_Soldier_SubMachinegun</defName>
-    <label>(Frankenstein)Soldier_SubMachinegun</label>
-    <labelPlural>(Frankenstein)Soldier_SubMachineguns</labelPlural>
+    <label>(FA)soldier submachine gun</label>
+    <labelPlural>(FA)Soldiers submachine gun</labelPlural>
     <race>Frankenstein_Soldier_SubMachinegun</race>
     <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
@@ -28,8 +28,8 @@
 
   <PawnKindDef ParentName="LightMechanoidKind">
     <defName>Frankenstein_Soldier_SubMachinegunSpawned</defName>
-    <label>(Frankenstein)Soldier_SubMachinegun</label>
-    <labelPlural>(Frankenstein)Soldier_SubMachineguns</labelPlural>
+    <label>(FA)soldier submachine gun</label>
+    <labelPlural>(FA)soldiers submachine gun</labelPlural>
     <race>Frankenstein_Soldier_SubMachinegunSpawned</race>
     <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
@@ -54,8 +54,8 @@
   <!-- Frankenstein_Soldier_AssaultRifle-->
   <PawnKindDef ParentName="LightMechanoidKind">
     <defName>Frankenstein_Soldier_AssaultRifle</defName>
-    <label>(Frankenstein)Soldier_AssaultRifle</label>
-    <labelPlural>(Frankenstein)Soldier_AssaultRifles</labelPlural>
+    <label>(FA)soldier assault rifle</label>
+    <labelPlural>(FA)soldiers assault rifle</labelPlural>
     <race>Frankenstein_Soldier_AssaultRifle</race>
     <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
@@ -78,8 +78,8 @@
 
   <PawnKindDef ParentName="LightMechanoidKind">
     <defName>Frankenstein_Soldier_AssaultRifleSpawned</defName>
-    <label>(Frankenstein)Soldier_AssaultRifle</label>
-    <labelPlural>(Frankenstein)Soldier_AssaultRifles</labelPlural>
+    <label>(FA)soldier assault rifle</label>
+    <labelPlural>(FA)soldiers assault rifle</labelPlural>
     <race>Frankenstein_Soldier_AssaultRifleSpawned</race>
     <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
@@ -104,8 +104,8 @@
   <!-- Frankenstein_Soldier_Rifle-->
   <PawnKindDef ParentName="LightMechanoidKind">
     <defName>Frankenstein_Soldier_Rifle</defName>
-    <label>(Frankenstein)Soldier_Rifle</label>
-    <labelPlural>(Frankenstein)Soldier_Rifles</labelPlural>
+    <label>(FA)soldier rifle</label>
+    <labelPlural>(FA)soldiers rifle</labelPlural>
     <race>Frankenstein_Soldier_Rifle</race>
     <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
@@ -128,8 +128,8 @@
 
   <PawnKindDef ParentName="LightMechanoidKind">
     <defName>Frankenstein_Soldier_RifleSpawned</defName>
-    <label>(Frankenstein)Soldier_Rifle</label>
-    <labelPlural>(Frankenstein)Soldier_Rifles</labelPlural>
+    <label>(FA)soldier rifle</label>
+    <labelPlural>(FA)soldiers rifle</labelPlural>
     <race>Frankenstein_Soldier_RifleSpawned</race>
     <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
@@ -154,8 +154,8 @@
   <!-- Frankenstein_Soldier_Rocket-->
   <PawnKindDef ParentName="LightMechanoidKind">
     <defName>Frankenstein_Soldier_Rocket</defName>
-    <label>(Frankenstein)Soldier_Rocket</label>
-    <labelPlural>(Frankenstein)Soldier_Rockets</labelPlural>
+    <label>(FA)soldier rocket</label>
+    <labelPlural>(FA)soldiers rocket</labelPlural>
     <race>Frankenstein_Soldier_Rocket</race>
     <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
@@ -178,8 +178,8 @@
 
   <PawnKindDef ParentName="LightMechanoidKind">
     <defName>Frankenstein_Soldier_RocketSpawned</defName>
-    <label>(Frankenstein)Soldier_Rocket</label>
-    <labelPlural>(Frankenstein)Soldier_Rockets</labelPlural>
+    <label>(FA)soldier rocket</label>
+    <labelPlural>(FA)soldiers rocket</labelPlural>
     <race>Frankenstein_Soldier_RocketSpawned</race>
     <combatPower>100</combatPower>
     <allowInMechClusters>false</allowInMechClusters>

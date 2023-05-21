@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Frankenstein_PODHans -->
+
+  <Frankenstein_PODHans.label>(FA)POD汉斯</Frankenstein_PODHans.label>
+  <Frankenstein_PODHans.description>每一步，汉斯都散发出一种专注与决心。被内在的渴望驱使着，以取悦他的主人并履行他的职责。</Frankenstein_PODHans.description>
+  <Frankenstein_PODHans.tools.0.label>头</Frankenstein_PODHans.tools.0.label>
+
+
+  <!-- Frankenstein_PODHelga -->
+
+  <Frankenstein_PODHelga.label>(FA)POD海尔加</Frankenstein_PODHelga.label>
+  <Frankenstein_PODHelga.description>每一步，海尔加都散发出一种宁静和沉着。以优雅和精准的方式完成她的任务。</Frankenstein_PODHelga.description>
+  <Frankenstein_PODHelga.tools.0.label>头</Frankenstein_PODHelga.tools.0.label>
+
+
+  <!-- Frankenstein_PODHeinrich -->
+
+  <Frankenstein_PODHeinrich.label>(FA)POD海因里希</Frankenstein_PODHeinrich.label>
+  <Frankenstein_PODHeinrich.description>他的固执能充当一面盾牌，排斥所有敢于挑战他的人</Frankenstein_PODHeinrich.description>
+  <Frankenstein_PODHeinrich.tools.0.label>头</Frankenstein_PODHeinrich.tools.0.label>
+
+
+  <!-- Frankenstein_Yarn -->
+
+  <Frankenstein_Yarn.label>(FA)纱线</Frankenstein_Yarn.label>
+  <Frankenstein_Yarn.description>以微妙的触碰和诱人的低语，纱线编织着欺骗之网，操纵着周围人的思绪和情感。</Frankenstein_Yarn.description>
+  <Frankenstein_Yarn.tools.0.label>头</Frankenstein_Yarn.tools.0.label>
+
+
+</LanguageData>

@@ -44,14 +44,14 @@
 
   <ThingDef ParentName="Frankenstein_SoldierBase">
     <defName>Frankenstein_Soldier_SubMachinegun</defName>
-    <label>(Frankenstein)Soldier_SubMachinegun</label>
-    <description>ToDo.</description>
+    <label>(FA)soldier submachine gun</label>
+    <description>Their uniformity is a testament to the engineer's meticulous skills. They move as one, an impenetrable wall of relentless aggression.</description>
   </ThingDef>
 
   <ThingDef ParentName="Frankenstein_SoldierBase">
     <defName>Frankenstein_Soldier_SubMachinegunSpawned</defName>
-    <label>(Frankenstein)Soldier_SubMachinegun</label>
-    <description>ToDo.</description>
+    <label>(FA)soldier submachine gun</label>
+    <description>Their uniformity is a testament to the engineer's meticulous skills. They move as one, an impenetrable wall of relentless aggression.</description>
     <race>
       <thinkTreeConstant>WarUrchinConstant</thinkTreeConstant>
     </race>
@@ -70,14 +70,14 @@
 
   <ThingDef ParentName="Frankenstein_SoldierBase">
     <defName>Frankenstein_Soldier_AssaultRifle</defName>
-    <label>(Frankenstein)Soldier_AssaultRifle</label>
-    <description>ToDo.</description>
+    <label>(FA)soldier assault rifle</label>
+    <description>Their uniformity is a testament to the engineer's meticulous skills. They move as one, an impenetrable wall of relentless aggression.</description>
   </ThingDef>
 
   <ThingDef ParentName="Frankenstein_SoldierBase">
     <defName>Frankenstein_Soldier_AssaultRifleSpawned</defName>
-    <label>(Frankenstein)Soldier_AssaultRifle</label>
-    <description>ToDo.</description>
+    <label>(FA)soldier assault rifle</label>
+    <description>Their uniformity is a testament to the engineer's meticulous skills. They move as one, an impenetrable wall of relentless aggression.</description>
     <race>
       <thinkTreeConstant>WarUrchinConstant</thinkTreeConstant>
     </race>
@@ -96,14 +96,14 @@
 
   <ThingDef ParentName="Frankenstein_SoldierBase">
     <defName>Frankenstein_Soldier_Rifle</defName>
-    <label>(Frankenstein)Soldier_Rifle</label>
-    <description>ToDo.</description>
+    <label>(FA)soldier rifle</label>
+    <description>Their uniformity is a testament to the engineer's meticulous skills. They move as one, an impenetrable wall of relentless aggression.</description>
   </ThingDef>
 
   <ThingDef ParentName="Frankenstein_SoldierBase">
     <defName>Frankenstein_Soldier_RifleSpawned</defName>
-    <label>(Frankenstein)Soldier_Rifle</label>
-    <description>ToDo.</description>
+    <label>(FA)soldier rifle</label>
+    <description>Their uniformity is a testament to the engineer's meticulous skills. They move as one, an impenetrable wall of relentless aggression.</description>
     <race>
       <thinkTreeConstant>WarUrchinConstant</thinkTreeConstant>
     </race>
@@ -122,14 +122,14 @@
 
   <ThingDef ParentName="Frankenstein_SoldierBase">
     <defName>Frankenstein_Soldier_Rocket</defName>
-    <label>(Frankenstein)Soldier_Rocket</label>
-    <description>ToDo.</description>
+    <label>(FA)soldier rocket</label>
+    <description>Their uniformity is a testament to the engineer's meticulous skills. They move as one, an impenetrable wall of relentless aggression.</description>
   </ThingDef>
 
   <ThingDef ParentName="Frankenstein_SoldierBase">
     <defName>Frankenstein_Soldier_RocketSpawned</defName>
-    <label>(Frankenstein)Soldier_Rocket</label>
-    <description>ToDo.</description>
+    <label>(FA)soldier rocket</label>
+    <description>Their uniformity is a testament to the engineer's meticulous skills. They move as one, an impenetrable wall of relentless aggression.</description>
     <race>
       <thinkTreeConstant>WarUrchinConstant</thinkTreeConstant>
     </race>

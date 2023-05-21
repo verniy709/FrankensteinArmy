@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="CookMealFineBase">
+    <defName>Frankenstein_CookBeetSoup</defName>
+    <label>cook beet soup</label>
+    <description>The Geheimzutaten infuse the Eintopf, leaving an indelible mark on their senses.</description>
+    <jobString>Cooking beet soup.</jobString>
+    <recipeUsers>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <customSummary>protein</customSummary>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.25</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.25</count>
+      </li>
+    </ingredients>
+    <products>
+      <Frankenstein_BeetSoup>1</Frankenstein_BeetSoup>
+    </products>
+    <displayPriority>200</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealFineBulkBase">
+    <defName>Frankenstein_CookBeetSoupBulk</defName>
+    <label>cook 4 beet soup</label>
+    <description>The Geheimzutaten infuse the Eintopf, leaving an indelible mark on their senses.</description>
+    <jobString>Cooking 4 beet soup.</jobString>
+    <recipeUsers>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <customSummary>protein</customSummary>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>1.0</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>1.0</count>
+      </li>
+    </ingredients>
+    <products>
+      <Frankenstein_BeetSoup>4</Frankenstein_BeetSoup>
+    </products>
+    <displayPriority>500</displayPriority>
+  </RecipeDef>
+
+</Defs>

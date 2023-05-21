@@ -4,15 +4,15 @@
   <!-- Frankenstein_GoreBag-->
   <ThingDef ParentName="ResourceBase">
     <defName>Frankenstein_GoreBag</defName>
-    <label>(Frankenstein)GoreBag</label>
-    <description>ToDo.</description>
+    <label>(FA)gore bag</label>
+    <description>Embrace your self-preservation, resist the seductive call of curiosity, and let the enigmatic bag remain a haunting reminder of the dangers that lurk when boundaries are crossed.</description>
     <graphicData>
       <texPath>Item/Frankenstein_GoreBag</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
-    <soundInteract>Standard_Drop</soundInteract><!-- ToDo -->
-    <soundDrop>Standard_Drop</soundDrop><!-- ToDo -->
-    <stackLimit>200</stackLimit>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>500</stackLimit>
     <healthAffectsPrice>false</healthAffectsPrice>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
@@ -24,6 +24,30 @@
     <thingCategories>
       <li>Manufactured</li>
     </thingCategories>
+  </ThingDef>
+
+  <!-- Frankenstein_BeetSoup-->
+  <ThingDef ParentName="MealFineBase">
+    <defName>Frankenstein_BeetSoup</defName>
+    <label>(FA)beet soup</label>
+    <description>A bowl of crimson temptation that beckons the curious palate.</description>
+    <graphicData>
+      <texPath>Item/Frankenstein_BeetSoup</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Frankenstein_ForbiddenKnowledge</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients">
+        <splitTransferableFoodKind>true</splitTransferableFoodKind>
+      </li>
+    </comps>
   </ThingDef>
 
 </Defs>

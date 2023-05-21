@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Frankenstein_PanzerIV -->
+
+  <Frankenstein_PanzerIV.label>(FA)四号坦克</Frankenstein_PanzerIV.label>
+  <Frankenstein_PanzerIV.labelPlural>(FA)四号坦克</Frankenstein_PanzerIV.labelPlural>
+  <Frankenstein_PanzerIV.labelMale>(FA)四号坦克</Frankenstein_PanzerIV.labelMale>
+  <Frankenstein_PanzerIV.labelMalePlural>(FA)四号坦克</Frankenstein_PanzerIV.labelMalePlural>
+  <Frankenstein_PanzerIV.labelFemale>四号坦克</Frankenstein_PanzerIV.labelFemale>
+  <Frankenstein_PanzerIV.labelFemalePlural>(FA)四号坦克</Frankenstein_PanzerIV.labelFemalePlural>
+
+
+  <!-- Frankenstein_SdKfz251_SubMachinegun -->
+
+  <Frankenstein_SdKfz251_SubMachinegun.label>(FA)SdKfz251冲锋枪兵</Frankenstein_SdKfz251_SubMachinegun.label>
+  <Frankenstein_SdKfz251_SubMachinegun.labelPlural>(FA)SdKfz251冲锋枪兵</Frankenstein_SdKfz251_SubMachinegun.labelPlural>
+  <Frankenstein_SdKfz251_SubMachinegun.labelMale>(FA)SdKfz251冲锋枪兵</Frankenstein_SdKfz251_SubMachinegun.labelMale>
+  <Frankenstein_SdKfz251_SubMachinegun.labelMalePlural>(FA)SdKfz251冲锋枪兵</Frankenstein_SdKfz251_SubMachinegun.labelMalePlural>
+  <Frankenstein_SdKfz251_SubMachinegun.labelFemale>(FA)SdKfz251冲锋枪兵</Frankenstein_SdKfz251_SubMachinegun.labelFemale>
+  <Frankenstein_SdKfz251_SubMachinegun.labelFemalePlural>(FA)SdKfz251冲锋枪兵</Frankenstein_SdKfz251_SubMachinegun.labelFemalePlural>
+
+
+  <!-- Frankenstein_SdKfz251_AssaultRifle -->
+
+  <Frankenstein_SdKfz251_AssaultRifle.label>(FA)SdKfz251突击步枪兵</Frankenstein_SdKfz251_AssaultRifle.label>
+  <Frankenstein_SdKfz251_AssaultRifle.labelPlural>(FA)SdKfz251突击步枪兵</Frankenstein_SdKfz251_AssaultRifle.labelPlural>
+  <Frankenstein_SdKfz251_AssaultRifle.labelMale>(FA)SdKfz251突击步枪兵</Frankenstein_SdKfz251_AssaultRifle.labelMale>
+  <Frankenstein_SdKfz251_AssaultRifle.labelMalePlural>(FA)SdKfz251突击步枪兵</Frankenstein_SdKfz251_AssaultRifle.labelMalePlural>
+  <Frankenstein_SdKfz251_AssaultRifle.labelFemale>(FA)SdKfz251突击步枪兵</Frankenstein_SdKfz251_AssaultRifle.labelFemale>
+  <Frankenstein_SdKfz251_AssaultRifle.labelFemalePlural>(FA)SdKfz251突击步枪兵</Frankenstein_SdKfz251_AssaultRifle.labelFemalePlural>
+
+
+  <!-- Frankenstein_SdKfz251_Rifle -->
+
+  <Frankenstein_SdKfz251_Rifle.label>(FA)SdKfz251步枪兵</Frankenstein_SdKfz251_Rifle.label>
+  <Frankenstein_SdKfz251_Rifle.labelPlural>(FA)SdKfz251步枪兵</Frankenstein_SdKfz251_Rifle.labelPlural>
+  <Frankenstein_SdKfz251_Rifle.labelMale>(FA)SdKfz251步枪兵</Frankenstein_SdKfz251_Rifle.labelMale>
+  <Frankenstein_SdKfz251_Rifle.labelMalePlural>(FA)SdKfz251步枪兵</Frankenstein_SdKfz251_Rifle.labelMalePlural>
+  <Frankenstein_SdKfz251_Rifle.labelFemale>(FA)SdKfz251步枪兵</Frankenstein_SdKfz251_Rifle.labelFemale>
+  <Frankenstein_SdKfz251_Rifle.labelFemalePlural>(FA)SdKfz251步枪兵</Frankenstein_SdKfz251_Rifle.labelFemalePlural>
+
+
+  <!-- Frankenstein_SdKfz251_Rocket -->
+
+  <Frankenstein_SdKfz251_Rocket.label>(FA)SdKfz251火箭发射器兵</Frankenstein_SdKfz251_Rocket.label>
+  <Frankenstein_SdKfz251_Rocket.labelPlural>(FA)SdKfz251火箭发射器兵</Frankenstein_SdKfz251_Rocket.labelPlural>
+  <Frankenstein_SdKfz251_Rocket.labelMale>(FA)SdKfz251火箭发射器兵</Frankenstein_SdKfz251_Rocket.labelMale>
+  <Frankenstein_SdKfz251_Rocket.labelMalePlural>(FA)SdKfz251火箭发射器兵</Frankenstein_SdKfz251_Rocket.labelMalePlural>
+  <Frankenstein_SdKfz251_Rocket.labelFemale>(FA)SdKfz251火箭发射器兵</Frankenstein_SdKfz251_Rocket.labelFemale>
+  <Frankenstein_SdKfz251_Rocket.labelFemalePlural>(FA)SdKfz251火箭发射器兵</Frankenstein_SdKfz251_Rocket.labelFemalePlural>
+
+
+</LanguageData>

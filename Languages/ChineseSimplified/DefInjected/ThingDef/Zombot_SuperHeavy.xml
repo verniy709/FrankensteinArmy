@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Frankenstein_PanzerIV -->
+
+  <Frankenstein_PanzerIV.label>(FA)四号坦克</Frankenstein_PanzerIV.label>
+  <Frankenstein_PanzerIV.description>这个由血肉和钢铁构成的怪物融合了坦克的强大威力和坚不可摧的装甲，同时还带有令人不安的活人的意识。</Frankenstein_PanzerIV.description>
+  <Frankenstein_PanzerIV.tools.0.label>车头</Frankenstein_PanzerIV.tools.0.label>
+  <Frankenstein_PanzerIV.tools.1.label>车头</Frankenstein_PanzerIV.tools.1.label>
+
+
+  <!-- Frankenstein_SdKfz251_SubMachinegun -->
+
+  <Frankenstein_SdKfz251_SubMachinegun.label>(FA)SdKfz251冲锋枪兵</Frankenstein_SdKfz251_SubMachinegun.label>
+  <Frankenstein_SdKfz251_SubMachinegun.description>仅仅一瞥那可憎之物就能使敌人的心中充满恐惧，因为他们面对的不仅仅是一台不可战胜的战争机器，还是一个能够产生无尽大军的活体恐怖。</Frankenstein_SdKfz251_SubMachinegun.description>
+  <Frankenstein_SdKfz251_SubMachinegun.tools.0.label>车头</Frankenstein_SdKfz251_SubMachinegun.tools.0.label>
+
+
+  <!-- Frankenstein_SdKfz251_AssaultRifle -->
+
+  <Frankenstein_SdKfz251_AssaultRifle.label>(FA)SdKfz251突击步枪兵</Frankenstein_SdKfz251_AssaultRifle.label>
+  <Frankenstein_SdKfz251_AssaultRifle.description>仅仅一瞥那可憎之物就能使敌人的心中充满恐惧，因为他们面对的不仅仅是一台不可战胜的战争机器，还是一个能够产生无尽大军的活体恐怖。</Frankenstein_SdKfz251_AssaultRifle.description>
+  <Frankenstein_SdKfz251_AssaultRifle.tools.0.label>车头</Frankenstein_SdKfz251_AssaultRifle.tools.0.label>
+
+
+  <!-- Frankenstein_SdKfz251_Rifle -->
+
+  <Frankenstein_SdKfz251_Rifle.label>(FA)SdKfz251步枪兵</Frankenstein_SdKfz251_Rifle.label>
+  <Frankenstein_SdKfz251_Rifle.description>仅仅一瞥那可憎之物就能使敌人的心中充满恐惧，因为他们面对的不仅仅是一台不可战胜的战争机器，还是一个能够产生无尽大军的活体恐怖。</Frankenstein_SdKfz251_Rifle.description>
+  <Frankenstein_SdKfz251_Rifle.tools.0.label>车头</Frankenstein_SdKfz251_Rifle.tools.0.label>
+
+
+  <!-- Frankenstein_SdKfz251_Rocket -->
+
+  <Frankenstein_SdKfz251_Rocket.label>(FA)SdKfz251火箭发射器兵</Frankenstein_SdKfz251_Rocket.label>
+  <Frankenstein_SdKfz251_Rocket.description>仅仅一瞥那可憎之物就能使敌人的心中充满恐惧，因为他们面对的不仅仅是一台不可战胜的战争机器，还是一个能够产生无尽大军的活体恐怖。</Frankenstein_SdKfz251_Rocket.description>
+  <Frankenstein_SdKfz251_Rocket.tools.0.label>车头</Frankenstein_SdKfz251_Rocket.tools.0.label>
+
+
+</LanguageData>

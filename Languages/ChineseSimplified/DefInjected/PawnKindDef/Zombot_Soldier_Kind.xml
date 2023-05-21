@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Frankenstein_Soldier_SubMachinegun -->
+
+  <Frankenstein_Soldier_SubMachinegun.label>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegun.label>
+  <Frankenstein_Soldier_SubMachinegun.labelPlural>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegun.labelPlural>
+  <Frankenstein_Soldier_SubMachinegun.labelMale>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegun.labelMale>
+  <Frankenstein_Soldier_SubMachinegun.labelMalePlural>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegun.labelMalePlural>
+  <Frankenstein_Soldier_SubMachinegun.labelFemale>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegun.labelFemale>
+  <Frankenstein_Soldier_SubMachinegun.labelFemalePlural>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegun.labelFemalePlural>
+
+  <Frankenstein_Soldier_SubMachinegunSpawned.label>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegunSpawned.label>
+  <Frankenstein_Soldier_SubMachinegunSpawned.labelPlural>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegunSpawned.labelPlural>
+  <Frankenstein_Soldier_SubMachinegunSpawned.labelMale>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegunSpawned.labelMale>
+  <Frankenstein_Soldier_SubMachinegunSpawned.labelMalePlural>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegunSpawned.labelMalePlural>
+  <Frankenstein_Soldier_SubMachinegunSpawned.labelFemale>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegunSpawned.labelFemale>
+  <Frankenstein_Soldier_SubMachinegunSpawned.labelFemalePlural>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegunSpawned.labelFemalePlural>
+
+
+  <!-- Frankenstein_Soldier_AssaultRifle -->
+
+  <Frankenstein_Soldier_AssaultRifle.label>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifle.label>
+  <Frankenstein_Soldier_AssaultRifle.labelPlural>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifle.labelPlural>
+  <Frankenstein_Soldier_AssaultRifle.labelMale>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifle.labelMale>
+  <Frankenstein_Soldier_AssaultRifle.labelMalePlural>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifle.labelMalePlural>
+  <Frankenstein_Soldier_AssaultRifle.labelFemale>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifle.labelFemale>
+  <Frankenstein_Soldier_AssaultRifle.labelFemalePlural>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifle.labelFemalePlural>
+
+  <Frankenstein_Soldier_AssaultRifleSpawned.label>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifleSpawned.label>
+  <Frankenstein_Soldier_AssaultRifleSpawned.labelPlural>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifleSpawned.labelPlural>
+  <Frankenstein_Soldier_AssaultRifleSpawned.labelMale>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifleSpawned.labelMale>
+  <Frankenstein_Soldier_AssaultRifleSpawned.labelMalePlural>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifleSpawned.labelMalePlural>
+  <Frankenstein_Soldier_AssaultRifleSpawned.labelFemale>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifleSpawned.labelFemale>
+  <Frankenstein_Soldier_AssaultRifleSpawned.labelFemalePlural>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifleSpawned.labelFemalePlural>
+
+
+  <!-- Frankenstein_Soldier_Rifle -->
+
+  <Frankenstein_Soldier_Rifle.label>(FA)步枪兵</Frankenstein_Soldier_Rifle.label>
+  <Frankenstein_Soldier_Rifle.labelPlural>(FA)步枪兵</Frankenstein_Soldier_Rifle.labelPlural>
+  <Frankenstein_Soldier_Rifle.labelMale>(FA)步枪兵</Frankenstein_Soldier_Rifle.labelMale>
+  <Frankenstein_Soldier_Rifle.labelMalePlural>(FA)步枪兵</Frankenstein_Soldier_Rifle.labelMalePlural>
+  <Frankenstein_Soldier_Rifle.labelFemale>(FA)步枪兵</Frankenstein_Soldier_Rifle.labelFemale>
+  <Frankenstein_Soldier_Rifle.labelFemalePlural>(FA)步枪兵</Frankenstein_Soldier_Rifle.labelFemalePlural>
+
+  <Frankenstein_Soldier_RifleSpawned.label>(FA)步枪兵</Frankenstein_Soldier_RifleSpawned.label>
+  <Frankenstein_Soldier_RifleSpawned.labelPlural>(FA)步枪兵</Frankenstein_Soldier_RifleSpawned.labelPlural>
+  <Frankenstein_Soldier_RifleSpawned.labelMale>(FA)步枪兵</Frankenstein_Soldier_RifleSpawned.labelMale>
+  <Frankenstein_Soldier_RifleSpawned.labelMalePlural>(FA)步枪兵</Frankenstein_Soldier_RifleSpawned.labelMalePlural>
+  <Frankenstein_Soldier_RifleSpawned.labelFemale>(FA)步枪兵</Frankenstein_Soldier_RifleSpawned.labelFemale>
+  <Frankenstein_Soldier_RifleSpawned.labelFemalePlural>(FA)步枪兵</Frankenstein_Soldier_RifleSpawned.labelFemalePlural>
+
+
+  <!-- Frankenstein_Soldier_Rocket -->
+
+  <Frankenstein_Soldier_Rocket.label>(FA)火箭发射器兵</Frankenstein_Soldier_Rocket.label>
+  <Frankenstein_Soldier_Rocket.labelPlural>火箭发射器兵</Frankenstein_Soldier_Rocket.labelPlural>
+  <Frankenstein_Soldier_Rocket.labelMale>(FA)火箭发射器兵</Frankenstein_Soldier_Rocket.labelMale>
+  <Frankenstein_Soldier_Rocket.labelMalePlural>火箭发射器兵</Frankenstein_Soldier_Rocket.labelMalePlural>
+  <Frankenstein_Soldier_Rocket.labelFemale>(FA)火箭发射器兵</Frankenstein_Soldier_Rocket.labelFemale>
+  <Frankenstein_Soldier_Rocket.labelFemalePlural>火箭发射器兵</Frankenstein_Soldier_Rocket.labelFemalePlural>
+
+  <Frankenstein_Soldier_RocketSpawned.label>(FA)火箭发射器兵</Frankenstein_Soldier_RocketSpawned.label>
+  <Frankenstein_Soldier_RocketSpawned.labelPlural>火箭发射器兵</Frankenstein_Soldier_RocketSpawned.labelPlural>
+  <Frankenstein_Soldier_RocketSpawned.labelMale>(FA)火箭发射器兵</Frankenstein_Soldier_RocketSpawned.labelMale>
+  <Frankenstein_Soldier_RocketSpawned.labelMalePlural>火箭发射器兵</Frankenstein_Soldier_RocketSpawned.labelMalePlural>
+  <Frankenstein_Soldier_RocketSpawned.labelFemale>(FA)火箭发射器兵</Frankenstein_Soldier_RocketSpawned.labelFemale>
+  <Frankenstein_Soldier_RocketSpawned.labelFemalePlural>火箭发射器兵</Frankenstein_Soldier_RocketSpawned.labelFemalePlural>
+
+
+</LanguageData>

@@ -37,8 +37,8 @@
   <!-- Frankenstein_Hammer -->  
   <ThingDef ParentName="Frankenstein_HeavyBase">
     <defName>Frankenstein_Hammer</defName>
-    <label>(Frankenstein)Hammer</label>
-    <description>ToDo.</description>
+    <label>(FA)hammer</label>
+    <description>This cold-hearted masterpiece combines the duality of creation and annihilation, a tool that serves as a cruel reminder of power.</description>
     <statBases>
       <FoodPoisonChance>0.001</FoodPoisonChance>
     </statBases>
@@ -100,8 +100,8 @@
   <!-- Frankenstein_Cauldron -->  
   <ThingDef ParentName="Frankenstein_HeavyBase">
     <defName>Frankenstein_Cauldron</defName>
-    <label>(Frankenstein)Cauldron</label>
-    <description>ToDo.</description>
+    <label>(FA)cauldron</label>
+    <description>This ingeniously crafted monstrosity, engineered by a cold and ruthless mind, harnesses the power of fire to unleash annihilation upon countless foes.</description>
     <statBases>
       <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.40</ArmorRating_Sharp>
@@ -145,8 +145,8 @@
   <!-- Frankenstein_PropellerA -->  
   <ThingDef ParentName="Frankenstein_HeavyBase">
     <defName>Frankenstein_PropellerA</defName>
-    <label>(Frankenstein)PropellerA</label>
-    <description>ToDo.</description>
+    <label>(FA)propeller A</label>
+    <description>Its mighty propellers churn through the air, generating a tempestuous force capable of rending anything in its path. With each rotation, it unleashes a cataclysmic whirlwind that engulfs all who oppose it.</description>
     <statBases>
       <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.40</ArmorRating_Sharp>
@@ -200,8 +200,8 @@
   <!-- Frankenstein_PropellerB -->  
   <ThingDef ParentName="Frankenstein_HeavyBase">
     <defName>Frankenstein_PropellerB</defName>
-    <label>(Frankenstein)PropellerB</label>
-    <description>ToDo.</description>
+    <label>(FA)propeller B</label>
+    <description>Its mighty propellers churn through the air, generating a tempestuous force capable of rending anything in its path. With each rotation, it unleashes a cataclysmic whirlwind that engulfs all who oppose it.</description>
     <statBases>
       <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
       <ArmorRating_Sharp>1.40</ArmorRating_Sharp>

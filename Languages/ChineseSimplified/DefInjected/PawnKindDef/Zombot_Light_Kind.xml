@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Frankenstein_PODHans -->
+
+  <Frankenstein_PODHans.label>(FA)POD汉斯</Frankenstein_PODHans.label>
+  <Frankenstein_PODHans.labelPlural>(FA)POD汉斯</Frankenstein_PODHans.labelPlural>
+  <Frankenstein_PODHans.labelMale>(FA)POD汉斯</Frankenstein_PODHans.labelMale>
+  <Frankenstein_PODHans.labelMalePlural>(FA)POD汉斯</Frankenstein_PODHans.labelMalePlural>
+  <Frankenstein_PODHans.labelFemale>(FA)POD汉斯</Frankenstein_PODHans.labelFemale>
+  <Frankenstein_PODHans.labelFemalePlural>(FA)POD汉斯</Frankenstein_PODHans.labelFemalePlural>
+
+
+  <!-- Frankenstein_PODHelga -->
+
+  <Frankenstein_PODHelga.label>(FA)POD海尔加</Frankenstein_PODHelga.label>
+  <Frankenstein_PODHelga.labelPlural>(FA)POD海尔加</Frankenstein_PODHelga.labelPlural>
+  <Frankenstein_PODHelga.labelMale>(FA)POD海尔加</Frankenstein_PODHelga.labelMale>
+  <Frankenstein_PODHelga.labelMalePlural>(FA)POD海尔加</Frankenstein_PODHelga.labelMalePlural>
+  <Frankenstein_PODHelga.labelFemale>(FA)POD海尔加</Frankenstein_PODHelga.labelFemale>
+  <Frankenstein_PODHelga.labelFemalePlural>(FA)POD海尔加</Frankenstein_PODHelga.labelFemalePlural>
+
+
+  <!-- Frankenstein_PODHeinrich -->
+
+  <Frankenstein_PODHeinrich.label>(FA)POD海因里希</Frankenstein_PODHeinrich.label>
+  <Frankenstein_PODHeinrich.labelPlural>(FA)POD海因里希</Frankenstein_PODHeinrich.labelPlural>
+  <Frankenstein_PODHeinrich.labelMale>(FA)POD海因里希</Frankenstein_PODHeinrich.labelMale>
+  <Frankenstein_PODHeinrich.labelMalePlural>(FA)POD海因里希</Frankenstein_PODHeinrich.labelMalePlural>
+  <Frankenstein_PODHeinrich.labelFemale>(FA)POD海因里希</Frankenstein_PODHeinrich.labelFemale>
+  <Frankenstein_PODHeinrich.labelFemalePlural>(FA)POD海因里希</Frankenstein_PODHeinrich.labelFemalePlural>
+
+
+  <!-- Frankenstein_Yarn -->
+
+  <Frankenstein_Yarn.label>(FA)纱线</Frankenstein_Yarn.label>
+  <Frankenstein_Yarn.labelPlural>(FA)纱线</Frankenstein_Yarn.labelPlural>
+  <Frankenstein_Yarn.labelMale>(FA)纱线</Frankenstein_Yarn.labelMale>
+  <Frankenstein_Yarn.labelMalePlural>(FA)纱线</Frankenstein_Yarn.labelMalePlural>
+  <Frankenstein_Yarn.labelFemale>(FA)纱线</Frankenstein_Yarn.labelFemale>
+  <Frankenstein_Yarn.labelFemalePlural>(FA)纱线</Frankenstein_Yarn.labelFemalePlural>
+
+
+</LanguageData>

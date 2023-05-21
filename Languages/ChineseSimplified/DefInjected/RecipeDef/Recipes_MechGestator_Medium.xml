@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Frankenstein_Match.label>(FA)火柴</Frankenstein_Match.label>
+  <Frankenstein_Match.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_Match.description>
+  <Frankenstein_Match.jobString>组装僵尸机械中</Frankenstein_Match.jobString>
+
+  <Frankenstein_Hound.label>(FA)猎犬</Frankenstein_Hound.label>
+  <Frankenstein_Hound.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_Hound.description>
+  <Frankenstein_Hound.jobString>组装僵尸机械中</Frankenstein_Hound.jobString>
+
+  <Frankenstein_Razor.label>(FA)刀片</Frankenstein_Razor.label>
+  <Frankenstein_Razor.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_Razor.description>
+  <Frankenstein_Razor.jobString>组装僵尸机械中</Frankenstein_Razor.jobString>
+
+  <Frankenstein_Drill.label>(FA)电钻</Frankenstein_Drill.label>
+  <Frankenstein_Drill.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_Drill.description>
+  <Frankenstein_Drill.jobString>组装僵尸机械中</Frankenstein_Drill.jobString>
+
+  <Frankenstein_Needle.label>(FA)针头</Frankenstein_Needle.label>
+  <Frankenstein_Needle.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_Needle.description>
+  <Frankenstein_Needle.jobString>组装僵尸机械中</Frankenstein_Needle.jobString>
+
+
+</LanguageData>

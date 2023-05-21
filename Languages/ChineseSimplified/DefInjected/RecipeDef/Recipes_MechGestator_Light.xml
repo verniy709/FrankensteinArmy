@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Frankenstein_PODHans.label>(FA)POD汉斯</Frankenstein_PODHans.label>
+  <Frankenstein_PODHans.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_PODHans.description>
+  <Frankenstein_PODHans.jobString>组装僵尸机械中</Frankenstein_PODHans.jobString>
+
+  <Frankenstein_PODHelga.label>(FA)POD海尔加</Frankenstein_PODHelga.label>
+  <Frankenstein_PODHelga.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_PODHelga.description>
+  <Frankenstein_PODHelga.jobString>组装僵尸机械中</Frankenstein_PODHelga.jobString>
+
+  <Frankenstein_PODHeinrich.label>(FA)POD海因里希</Frankenstein_PODHeinrich.label>
+  <Frankenstein_PODHeinrich.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_PODHeinrich.description>
+  <Frankenstein_PODHeinrich.jobString>组装僵尸机械中</Frankenstein_PODHeinrich.jobString>
+
+  <Frankenstein_Yarn.label>(FA)纱线</Frankenstein_Yarn.label>
+  <Frankenstein_Yarn.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_Yarn.description>
+  <Frankenstein_Yarn.jobString>组装僵尸机械中</Frankenstein_Yarn.jobString>
+
+  <Frankenstein_Soldier_SubMachinegun.label>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegun.label>
+  <Frankenstein_Soldier_SubMachinegun.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_Soldier_SubMachinegun.description>
+  <Frankenstein_Soldier_SubMachinegun.jobString>组装僵尸机械中</Frankenstein_Soldier_SubMachinegun.jobString>
+
+  <Frankenstein_Soldier_AssaultRifle.label>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifle.label>
+  <Frankenstein_Soldier_AssaultRifle.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_Soldier_AssaultRifle.description>
+  <Frankenstein_Soldier_AssaultRifle.jobString>组装僵尸机械中</Frankenstein_Soldier_AssaultRifle.jobString>
+
+  <Frankenstein_Soldier_Rifle.label>(FA)步枪兵</Frankenstein_Soldier_Rifle.label>
+  <Frankenstein_Soldier_Rifle.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_Soldier_Rifle.description>
+  <Frankenstein_Soldier_Rifle.jobString>组装僵尸机械中</Frankenstein_Soldier_Rifle.jobString>
+
+  <Frankenstein_Soldier_Rocket.label>(FA)火箭发射器兵</Frankenstein_Soldier_Rocket.label>
+  <Frankenstein_Soldier_Rocket.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_Soldier_Rocket.description>
+  <Frankenstein_Soldier_Rocket.jobString>组装僵尸机械中</Frankenstein_Soldier_Rocket.jobString>
+
+
+</LanguageData>

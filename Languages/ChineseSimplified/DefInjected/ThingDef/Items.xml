@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Frankenstein_GoreBag -->
+
+  <Frankenstein_GoreBag.label>(FA)尸袋</Frankenstein_GoreBag.label>
+  <Frankenstein_GoreBag.description>所谓好奇心害死猫，让那些神秘的袋子保持神秘，时刻提醒着那些有可能越界的闲人。</Frankenstein_GoreBag.description>
+
+
+  <!-- Frankenstein_BeetSoup -->
+
+  <Frankenstein_BeetSoup.label>(FA)甜菜汤</Frankenstein_BeetSoup.label>
+  <Frankenstein_BeetSoup.description>一碗深红色的诱惑，引诱着好奇的味蕾。</Frankenstein_BeetSoup.description>
+
+
+</LanguageData>

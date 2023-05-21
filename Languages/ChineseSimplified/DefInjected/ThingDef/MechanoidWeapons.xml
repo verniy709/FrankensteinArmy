@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Frankenstein_Pistol -->
+
+  <Frankenstein_Pistol.label>(FA)手枪</Frankenstein_Pistol.label>
+  <Frankenstein_Pistol.description>手枪.</Frankenstein_Pistol.description>
+  <Frankenstein_Pistol.tools.0.label>握把</Frankenstein_Pistol.tools.0.label>
+  <Frankenstein_Pistol.tools.1.label>枪管</Frankenstein_Pistol.tools.1.label>
+
+
+  <!-- Frankenstein_SubMachinegun -->
+
+  <Frankenstein_SubMachinegun.label>(FA)冲锋枪</Frankenstein_SubMachinegun.label>
+  <Frankenstein_SubMachinegun.description>冲锋枪.</Frankenstein_SubMachinegun.description>
+  <Frankenstein_SubMachinegun.tools.0.label>握把</Frankenstein_SubMachinegun.tools.0.label>
+  <Frankenstein_SubMachinegun.tools.1.label>枪管</Frankenstein_SubMachinegun.tools.1.label>
+
+
+  <!-- Frankenstein_AssaultRifle -->
+
+  <Frankenstein_AssaultRifle.label>(FA)突击步枪</Frankenstein_AssaultRifle.label>
+  <Frankenstein_AssaultRifle.description>突击步枪.</Frankenstein_AssaultRifle.description>
+  <Frankenstein_AssaultRifle.tools.0.label>枪托</Frankenstein_AssaultRifle.tools.0.label>
+  <Frankenstein_AssaultRifle.tools.1.label>枪管</Frankenstein_AssaultRifle.tools.1.label>
+
+
+  <!-- Frankenstein_Rifle -->
+
+  <Frankenstein_Rifle.label>(FA)步枪</Frankenstein_Rifle.label>
+  <Frankenstein_Rifle.description>步枪.</Frankenstein_Rifle.description>
+  <Frankenstein_Rifle.tools.0.label>枪托</Frankenstein_Rifle.tools.0.label>
+  <Frankenstein_Rifle.tools.1.label>枪管</Frankenstein_Rifle.tools.1.label>
+
+
+  <!-- Frankenstein_Rocket -->
+
+  <Frankenstein_Rocket.label>(FA)火箭发射器</Frankenstein_Rocket.label>
+  <Frankenstein_Rocket.description>火箭发射器.</Frankenstein_Rocket.description>
+  <Frankenstein_Rocket.tools.0.label>枪托</Frankenstein_Rocket.tools.0.label>
+  <Frankenstein_Rocket.tools.1.label>枪管</Frankenstein_Rocket.tools.1.label>
+
+  <Bullet_Frankenstein_Rocket.label>火箭弹</Bullet_Frankenstein_Rocket.label>
+
+
+  <!-- Frankenstein_FlameGun -->
+
+  <Frankenstein_FlameGun.label>(FA)喷火器</Frankenstein_FlameGun.label>
+  <Frankenstein_FlameGun.description>喷火器.</Frankenstein_FlameGun.description>
+
+
+  <!-- Frankenstein_HellCannon -->
+
+  <Frankenstein_HellCannon.label>(FA)地狱加农炮</Frankenstein_HellCannon.label>
+  <Frankenstein_HellCannon.description>地狱加农炮.</Frankenstein_HellCannon.description>
+
+
+  <!-- Frankenstein_Maul -->
+
+  <Frankenstein_Maul.label>(FA)大槌</Frankenstein_Maul.label>
+  <Frankenstein_Maul.description>大槌.</Frankenstein_Maul.description>
+  <Frankenstein_Maul.tools.0.label>柄</Frankenstein_Maul.tools.0.label>
+  <Frankenstein_Maul.tools.1.label>锤头</Frankenstein_Maul.tools.1.label>
+
+
+  <!-- Frankenstein_Flak -->
+
+  <Frankenstein_Flak.label>(FA)直射炮</Frankenstein_Flak.label>
+  <Frankenstein_Flak.description>直射炮.</Frankenstein_Flak.description>
+
+  <Frankenstein_FlakShell.label>(FA)炮弹</Frankenstein_FlakShell.label>
+
+
+  <!-- Frankenstein_Machinegun -->
+
+  <Frankenstein_Machinegun.label>(FA)机枪</Frankenstein_Machinegun.label>
+  <Frankenstein_Machinegun.description>机枪.</Frankenstein_Machinegun.description>
+  <Frankenstein_Machinegun.tools.0.label>枪管</Frankenstein_Machinegun.tools.0.label>
+
+
+</LanguageData>

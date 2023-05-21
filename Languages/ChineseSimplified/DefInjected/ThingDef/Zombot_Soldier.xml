@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Frankenstein_Soldier_Base -->
+
+  <Frankenstein_Soldier_SubMachinegun.label>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegun.label>
+  <Frankenstein_Soldier_SubMachinegun.description>士兵们整齐划一的行动证明了工程大师精细入微的技巧。士兵们如同一个整体，构成了排山倒海的攻势。</Frankenstein_Soldier_SubMachinegun.description>
+  <Frankenstein_Soldier_SubMachinegun.tools.0.label>头</Frankenstein_Soldier_SubMachinegun.tools.0.label>
+
+  <Frankenstein_Soldier_SubMachinegunSpawned.label>(FA)冲锋枪兵</Frankenstein_Soldier_SubMachinegunSpawned.label>
+  <Frankenstein_Soldier_SubMachinegunSpawned.description>T士兵们整齐划一的行动证明了工程大师精细入微的技巧。士兵们如同一个整体，构成了排山倒海的攻势。</Frankenstein_Soldier_SubMachinegunSpawned.description>
+  <Frankenstein_Soldier_SubMachinegunSpawned.tools.0.label>头</Frankenstein_Soldier_SubMachinegunSpawned.tools.0.label>
+
+  <Frankenstein_Soldier_AssaultRifle.label>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifle.label>
+  <Frankenstein_Soldier_AssaultRifle.description>T士兵们整齐划一的行动证明了工程大师精细入微的技巧。士兵们如同一个整体，构成了排山倒海的攻势。</Frankenstein_Soldier_AssaultRifle.description>
+  <Frankenstein_Soldier_AssaultRifle.tools.0.label>头</Frankenstein_Soldier_AssaultRifle.tools.0.label>
+
+  <Frankenstein_Soldier_AssaultRifleSpawned.label>(FA)突击步枪兵</Frankenstein_Soldier_AssaultRifleSpawned.label>
+  <Frankenstein_Soldier_AssaultRifleSpawned.description>T士兵们整齐划一的行动证明了工程大师精细入微的技巧。士兵们如同一个整体，构成了排山倒海的攻势。</Frankenstein_Soldier_AssaultRifleSpawned.description>
+  <Frankenstein_Soldier_AssaultRifleSpawned.tools.0.label>头</Frankenstein_Soldier_AssaultRifleSpawned.tools.0.label>
+
+  <Frankenstein_Soldier_Rifle.label>(FA)步枪兵</Frankenstein_Soldier_Rifle.label>
+  <Frankenstein_Soldier_Rifle.description>T士兵们整齐划一的行动证明了工程大师精细入微的技巧。士兵们如同一个整体，构成了排山倒海的攻势。</Frankenstein_Soldier_Rifle.description>
+  <Frankenstein_Soldier_Rifle.tools.0.label>头</Frankenstein_Soldier_Rifle.tools.0.label>
+
+  <Frankenstein_Soldier_RifleSpawned.label>(FA)步枪兵</Frankenstein_Soldier_RifleSpawned.label>
+  <Frankenstein_Soldier_RifleSpawned.description>T士兵们整齐划一的行动证明了工程大师精细入微的技巧。士兵们如同一个整体，构成了排山倒海的攻势。</Frankenstein_Soldier_RifleSpawned.description>
+  <Frankenstein_Soldier_RifleSpawned.tools.0.label>头</Frankenstein_Soldier_RifleSpawned.tools.0.label>
+
+  <Frankenstein_Soldier_Rocket.label>(FA)火箭发射器兵</Frankenstein_Soldier_Rocket.label>
+  <Frankenstein_Soldier_Rocket.description>T士兵们整齐划一的行动证明了工程大师精细入微的技巧。士兵们如同一个整体，构成了排山倒海的攻势。</Frankenstein_Soldier_Rocket.description>
+  <Frankenstein_Soldier_Rocket.tools.0.label>头</Frankenstein_Soldier_Rocket.tools.0.label>
+
+  <Frankenstein_Soldier_RocketSpawned.label>(FA)火箭发射器兵</Frankenstein_Soldier_RocketSpawned.label>
+  <Frankenstein_Soldier_RocketSpawned.description>T士兵们整齐划一的行动证明了工程大师精细入微的技巧。士兵们如同一个整体，构成了排山倒海的攻势。</Frankenstein_Soldier_RocketSpawned.description>
+  <Frankenstein_Soldier_RocketSpawned.tools.0.label>头</Frankenstein_Soldier_RocketSpawned.tools.0.label>
+
+
+</LanguageData>

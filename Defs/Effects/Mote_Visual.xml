@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MoteBase">
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <defName>Mote_FrankensteinForming</defName>
+    <mote>
+      <fadeInTime>0.1</fadeInTime>
+      <solidTime>999999999</solidTime>
+      <fadeOutTime>0.5</fadeOutTime>
+      <needsMaintenance>True</needsMaintenance>
+    </mote>
+    <graphicData>
+      <drawSize>2.75</drawSize>
+      <drawOffset>(0,0,0.30)</drawOffset>
+      <texPath>Effect/Frankenstein_WorkshopForming</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <defName>Mote_FrankensteinComplete</defName>
+    <mote>
+      <fadeInTime>0.1</fadeInTime>
+      <solidTime>999999999</solidTime>
+      <fadeOutTime>0.5</fadeOutTime>
+      <needsMaintenance>True</needsMaintenance>
+    </mote>
+    <graphicData>
+      <drawSize>2.75</drawSize>
+      <drawOffset>(0,0,0.30)</drawOffset>
+      <texPath>Effect/Frankenstein_WorkshopComplete</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <defName>Mote_FrankensteinFormed</defName>
+    <mote>
+      <fadeInTime>0.1</fadeInTime>
+      <solidTime>999999999</solidTime>
+      <fadeOutTime>0.5</fadeOutTime>
+      <needsMaintenance>True</needsMaintenance>
+    </mote>
+    <graphicData>
+      <drawSize>2.75</drawSize>
+      <drawOffset>(0,0,0.30)</drawOffset>
+      <texPath>Effect/Frankenstein_WorkshopFormed</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+  </ThingDef>
+  
+</Defs>

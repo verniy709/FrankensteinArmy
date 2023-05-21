@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Frankenstein_SdKfz251_Flak-->
+  <!-- Frankenstein_PanzerIV-->
   <PawnKindDef ParentName="HeavyMechanoidKind">
-    <defName>Frankenstein_SdKfz251_Flak</defName>
-    <label>(Frankenstein)SdKfz251_Flak</label>
-    <labelPlural>(Frankenstein)SdKfz251_Flaks</labelPlural>
-    <race>Frankenstein_SdKfz251_Flak</race>
+    <defName>Frankenstein_PanzerIV</defName>
+    <label>(FA)Panzer IV</label>
+    <labelPlural>(FA)Panzer IVs</labelPlural>
+    <race>Frankenstein_PanzerIV</race>
     <combatPower>800</combatPower>
     <maxPerGroup>2</maxPerGroup>
     <allowInMechClusters>false</allowInMechClusters>  
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Mechanoid/Frankenstein_SdKfz251_Flak</texPath>
+          <texPath>Mechanoid/Frankenstein_PanzerIV</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>4.0</drawSize>
+          <drawSize>4.2</drawSize>
           <shadowData>
             <volume>(0.7, 0.8, 0.7)</volume>
           </shadowData>
@@ -31,8 +31,8 @@
   <!-- Frankenstein_SdKfz251_SubMachinegun-->
   <PawnKindDef ParentName="HeavyMechanoidKind">
     <defName>Frankenstein_SdKfz251_SubMachinegun</defName>
-    <label>(Frankenstein)SdKfz251_SubMachinegun</label>
-    <labelPlural>(Frankenstein)SdKfz251_SubMachinegun</labelPlural>
+    <label>(FA)SdKfz251 submachine gun</label>
+    <labelPlural>(FA)SdKfz251 submachine gun</labelPlural>
     <race>Frankenstein_SdKfz251_SubMachinegun</race>
     <combatPower>800</combatPower>
     <maxPerGroup>2</maxPerGroup>
@@ -42,7 +42,7 @@
         <bodyGraphicData>
           <texPath>Mechanoid/Frankenstein_SdKfz251_SubMachinegun</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
-          <drawSize>4.0</drawSize>
+          <drawSize>4.5</drawSize>
           <shadowData>
             <volume>(0.7, 0.8, 0.7)</volume>
           </shadowData>
@@ -58,8 +58,8 @@
   <!-- Frankenstein_SdKfz251_AssaultRifle-->
   <PawnKindDef ParentName="HeavyMechanoidKind">
     <defName>Frankenstein_SdKfz251_AssaultRifle</defName>
-    <label>(Frankenstein)SdKfz251_AssaultRifle</label>
-    <labelPlural>(Frankenstein)SdKfz251_AssaultRifle</labelPlural>
+    <label>(FA)SdKfz251 assault rifle</label>
+    <labelPlural>(FA)SdKfz251 assault rifle</labelPlural>
     <race>Frankenstein_SdKfz251_AssaultRifle</race>
     <combatPower>800</combatPower>
     <maxPerGroup>2</maxPerGroup>
@@ -85,8 +85,8 @@
   <!-- Frankenstein_SdKfz251_Rifle-->
   <PawnKindDef ParentName="HeavyMechanoidKind">
     <defName>Frankenstein_SdKfz251_Rifle</defName>
-    <label>(Frankenstein)SdKfz251_Rifle</label>
-    <labelPlural>(Frankenstein)SdKfz251_Rifle</labelPlural>
+    <label>(FA)SdKfz251 rifle</label>
+    <labelPlural>(FA)SdKfz251 rifle</labelPlural>
     <race>Frankenstein_SdKfz251_Rifle</race>
     <combatPower>800</combatPower>
     <maxPerGroup>2</maxPerGroup>
@@ -112,8 +112,8 @@
   <!-- Frankenstein_SdKfz251_Rocket-->
   <PawnKindDef ParentName="HeavyMechanoidKind">
     <defName>Frankenstein_SdKfz251_Rocket</defName>
-    <label>(Frankenstein)SdKfz251_Rocket</label>
-    <labelPlural>(Frankenstein)SdKfz251_Rocket</labelPlural>
+    <label>(FA)SdKfz251 rocket</label>
+    <labelPlural>(FA)SdKfz251 rocket</labelPlural>
     <race>Frankenstein_SdKfz251_Rocket</race>
     <combatPower>800</combatPower>
     <maxPerGroup>2</maxPerGroup>

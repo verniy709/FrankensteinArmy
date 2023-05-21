@@ -27,8 +27,8 @@
 
   <RecipeDef ParentName="LightFrankensteinRecipe">
     <defName>Frankenstein_PODHans</defName>
-    <label>(Frankenstein)PODHans</label>
-    <description>ToDo.</description>
+    <label>(FA)PODHans</label>
+    <description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
     <products>
       <Frankenstein_PODHans>1</Frankenstein_PODHans>
     </products>
@@ -39,8 +39,8 @@
 
   <RecipeDef ParentName="LightFrankensteinRecipe">
     <defName>Frankenstein_PODHelga</defName>
-    <label>(Frankenstein)PODHelga</label>
-    <description>ToDo.</description>
+    <label>(FA)PODHelga</label>
+    <description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
     <products>
       <Frankenstein_PODHelga>1</Frankenstein_PODHelga>
     </products>
@@ -51,8 +51,8 @@
 
   <RecipeDef ParentName="LightFrankensteinRecipe">
     <defName>Frankenstein_PODHeinrich</defName>
-    <label>(Frankenstein)PODHeinrich</label>
-    <description>ToDo.</description>
+    <label>(FA)PODHeinrich</label>
+    <description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
     <products>
       <Frankenstein_PODHeinrich>1</Frankenstein_PODHeinrich>
     </products>
@@ -63,8 +63,8 @@
 
   <RecipeDef ParentName="LightFrankensteinRecipe">
     <defName>Frankenstein_Yarn</defName>
-    <label>(Frankenstein)Yarn</label>
-    <description>ToDo.</description>
+    <label>(FA)Yarn</label>
+    <description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
     <products>
       <Frankenstein_Yarn>1</Frankenstein_Yarn>
     </products>
@@ -75,8 +75,8 @@
 
   <RecipeDef ParentName="LightFrankensteinRecipe">
     <defName>Frankenstein_Soldier_SubMachinegun</defName>
-    <label>(Frankenstein)Soldier_SubMachinegun</label>
-    <description>ToDo.</description>
+    <label>(FA)Soldier_SubMachinegun</label>
+    <description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
     <products>
       <Frankenstein_Soldier_SubMachinegun>1</Frankenstein_Soldier_SubMachinegun>
     </products>
@@ -87,8 +87,8 @@
 
   <RecipeDef ParentName="LightFrankensteinRecipe">
     <defName>Frankenstein_Soldier_AssaultRifle</defName>
-    <label>(Frankenstein)Soldier_AssaultRifle</label>
-    <description>ToDo.</description>
+    <label>(FA)Soldier_AssaultRifle</label>
+    <description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
     <products>
       <Frankenstein_Soldier_AssaultRifle>1</Frankenstein_Soldier_AssaultRifle>
     </products>
@@ -99,8 +99,8 @@
 
   <RecipeDef ParentName="LightFrankensteinRecipe">
     <defName>Frankenstein_Soldier_Rifle</defName>
-    <label>(Frankenstein)Soldier_Rifle</label>
-    <description>ToDo.</description>
+    <label>(FA)Soldier_Rifle</label>
+    <description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
     <products>
       <Frankenstein_Soldier_Rifle>1</Frankenstein_Soldier_Rifle>
     </products>
@@ -111,8 +111,8 @@
 
   <RecipeDef ParentName="LightFrankensteinRecipe">
     <defName>Frankenstein_Soldier_Rocket</defName>
-    <label>(Frankenstein)Soldier_Rocket</label>
-    <description>ToDo.</description>
+    <label>(FA)Soldier_Rocket</label>
+    <description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
     <products>
       <Frankenstein_Soldier_Rocket>1</Frankenstein_Soldier_Rocket>
     </products>

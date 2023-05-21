@@ -17,8 +17,8 @@
 
 	<RecipeDef ParentName="HeavyFrankensteinRecipe">
 		<defName>Frankenstein_Hammer</defName>
-		<label>(Frankenstein)Hammer</label>
-		<description>ToDo.</description>
+		<label>(FA)Hammer</label>
+		<description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
 		<products>
 			<Frankenstein_Hammer>1</Frankenstein_Hammer>
 		</products>
@@ -29,8 +29,8 @@
 
 	<RecipeDef ParentName="HeavyFrankensteinRecipe">
 		<defName>Frankenstein_Cauldron</defName>
-		<label>(Frankenstein)Cauldron</label>
-		<description>ToDo.</description>
+		<label>(FA)Cauldron</label>
+		<description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
 		<products>
 			<Frankenstein_Cauldron>1</Frankenstein_Cauldron>
 		</products>
@@ -41,8 +41,8 @@
 
 	<RecipeDef ParentName="HeavyFrankensteinRecipe">
 		<defName>Frankenstein_PropellerA</defName>
-		<label>(Frankenstein)PropellerA</label>
-		<description>ToDo.</description>
+		<label>(FA)PropellerA</label>
+		<description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
 		<products>
 			<Frankenstein_PropellerA>1</Frankenstein_PropellerA>
 		</products>
@@ -53,8 +53,8 @@
 
 	<RecipeDef ParentName="HeavyFrankensteinRecipe">
 		<defName>Frankenstein_PropellerB</defName>
-		<label>(Frankenstein)PropellerB</label>
-		<description>ToDo.</description>
+		<label>(FA)PropellerB</label>
+		<description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
 		<products>
 			<Frankenstein_PropellerB>1</Frankenstein_PropellerB>
 		</products>

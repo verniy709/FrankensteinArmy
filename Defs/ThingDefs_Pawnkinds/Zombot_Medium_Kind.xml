@@ -4,7 +4,7 @@
   <!-- Frankenstein_Match-->
   <PawnKindDef ParentName="BaseMechanoidKind">
     <defName>Frankenstein_Match</defName>
-    <label>(Frankenstein)Match</label>
+    <label>(FA)match</label>
     <race>Frankenstein_Match</race>
     <combatPower>140</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
@@ -25,7 +25,7 @@
   <!-- Frankenstein_Hound-->
   <PawnKindDef ParentName="BaseMechanoidKind">
     <defName>Frankenstein_Hound</defName>
-    <label>(Frankenstein)Hound</label>
+    <label>(FA)hound</label>
     <race>Frankenstein_Hound</race>
     <combatPower>140</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
@@ -46,7 +46,7 @@
   <!-- Frankenstein_Razor-->
   <PawnKindDef ParentName="BaseMechanoidKind">
     <defName>Frankenstein_Razor</defName>
-    <label>(Frankenstein)Razor</label>
+    <label>(FA)razor</label>
     <race>Frankenstein_Razor</race>
     <combatPower>140</combatPower>
     <allowInMechClusters>false</allowInMechClusters>
@@ -67,11 +67,11 @@
   <!-- Frankenstein_Drill-->
   <PawnKindDef ParentName="BaseMechanoidKind">
     <defName>Frankenstein_Drill</defName>
-    <label>(Frankenstein)Drill</label>
+    <label>(FA)drill</label>
     <race>Frankenstein_Drill</race>
     <combatPower>140</combatPower>
     <abilities>
-      <li>LongjumpMech</li>
+      <li>Frankenstein_LongjumpMech</li>
     </abilities>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
@@ -91,7 +91,7 @@
   <!-- Frankenstein_Needle-->
   <PawnKindDef ParentName="BaseMechanoidKind">
     <defName>Frankenstein_Needle</defName>
-    <label>(Frankenstein)Needle</label>
+    <label>(FA)needle</label>
     <race>Frankenstein_Needle</race>
     <combatPower>140</combatPower>
     <maxPerGroup>3</maxPerGroup>

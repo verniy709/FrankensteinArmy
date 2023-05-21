@@ -4,26 +4,43 @@
   <HediffDef>
     <defName>Frankenstein_ForbiddenKnowledge</defName>
     <hediffClass>HediffWithComps</hediffClass>
-    <label>(Frankenstein)ForbiddenKnowledge</label>
-    <description>ToDo.</description>
-    <defaultLabelColor>(0.6, 0.6, 1.0)</defaultLabelColor>
+    <label>(FA)forbidden knowledge</label>
+    <description>How amusing! Guiding a promising protégé down the path of scientific brilliance.</description>
+    <defaultLabelColor>(0.7, 0.15, 0.15)</defaultLabelColor>
     <isBad>false</isBad>
     <initialSeverity>0</initialSeverity>
-    <makesSickThought>true</makesSickThought>
+    <makesSickThought>false</makesSickThought>
     <stages>
       <li>
         <minSeverity>0</minSeverity>
+        <statOffsets>
+          <MechBandwidth>12</MechBandwidth>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>1</minSeverity>
         <statOffsets>
           <MechBandwidth>24</MechBandwidth>
         </statOffsets>
       </li>
       <li>
-        <minSeverity>0.5</minSeverity>
+        <minSeverity>2</minSeverity>
+        <statOffsets>
+          <MechBandwidth>36</MechBandwidth>
+        </statOffsets>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
         <statOffsets>
           <MechBandwidth>48</MechBandwidth>
         </statOffsets>
       </li>
     </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.2</severityPerDay>
+      </li>
+    </comps>
   </HediffDef>
 
 </Defs>

@@ -16,21 +16,21 @@
   </RecipeDef>
 
   <RecipeDef ParentName="SuperHeavyFrankensteinRecipe">
-    <defName>Frankenstein_SdKfz251_Flak</defName>
-    <label>(Frankenstein)SdKfz251_Flak</label>
-    <description>ToDo.</description>
+    <defName>Frankenstein_PanzerIV</defName>
+    <label>(FA)Panzer IV</label>
+    <description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
     <products>
-      <Frankenstein_SdKfz251_Flak>1</Frankenstein_SdKfz251_Flak>
+      <Frankenstein_PanzerIV>1</Frankenstein_PanzerIV>
     </products>
     <descriptionHyperlinks>
-      <ThingDef>Frankenstein_SdKfz251_Flak</ThingDef>
+      <ThingDef>Frankenstein_PanzerIV</ThingDef>
     </descriptionHyperlinks>
   </RecipeDef>
 
   <RecipeDef ParentName="SuperHeavyFrankensteinRecipe">
     <defName>Frankenstein_SdKfz251_SubMachinegun</defName>
-    <label>(Frankenstein)SdKfz251_SubMachinegun</label>
-    <description>ToDo.</description>
+    <label>(FA)SdKfz251_SubMachinegun</label>
+    <description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
     <products>
       <Frankenstein_SdKfz251_SubMachinegun>1</Frankenstein_SdKfz251_SubMachinegun>
     </products>
@@ -41,8 +41,8 @@
 
   <RecipeDef ParentName="SuperHeavyFrankensteinRecipe">
     <defName>Frankenstein_SdKfz251_AssaultRifle</defName>
-    <label>(Frankenstein)SdKfz251_AssaultRifle</label>
-    <description>ToDo.</description>
+    <label>(FA)SdKfz251_AssaultRifle</label>
+    <description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
     <products>
       <Frankenstein_SdKfz251_AssaultRifle>1</Frankenstein_SdKfz251_AssaultRifle>
     </products>
@@ -53,8 +53,8 @@
 
   <RecipeDef ParentName="SuperHeavyFrankensteinRecipe">
     <defName>Frankenstein_SdKfz251_Rifle</defName>
-    <label>(Frankenstein)SdKfz251_Rifle</label>
-    <description>ToDo.</description>
+    <label>(FA)SdKfz251_Rifle</label>
+    <description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
     <products>
       <Frankenstein_SdKfz251_Rifle>1</Frankenstein_SdKfz251_Rifle>
     </products>
@@ -65,8 +65,8 @@
 
   <RecipeDef ParentName="SuperHeavyFrankensteinRecipe">
     <defName>Frankenstein_SdKfz251_Rocket</defName>
-    <label>(Frankenstein)SdKfz251_Rocket</label>
-    <description>ToDo.</description>
+    <label>(FA)SdKfz251_Rocket</label>
+    <description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
     <products>
       <Frankenstein_SdKfz251_Rocket>1</Frankenstein_SdKfz251_Rocket>
     </products>

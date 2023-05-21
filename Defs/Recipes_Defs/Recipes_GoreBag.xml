@@ -3,11 +3,15 @@
 
   <RecipeDef>
     <defName>Frankenstein_CollectGoreBag_NewMeat</defName>
-    <label>(Frankenstein)CollectGoreBag_NewMeat</label>
-    <description>ToDo.</description>
+    <label>(FA)collect gore bag</label>
+    <description>Waste not, want not, as they say. After all, there's nothing like repurposing the deceased for a more... savory cause.</description>
+    <recipeUsers>
+      <li>TableButcher</li>
+      <li>ButcherSpot</li>
+    </recipeUsers>
     <jobString>Dissecting.</jobString>
     <workAmount>200</workAmount>
-    <workSpeedStat>MechFormingSpeed</workSpeedStat>
+    <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
     <effectWorking>ButcherFlesh</effectWorking>
     <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
     <uiIconThing>Meat_Muffalo</uiIconThing>
@@ -29,7 +33,6 @@
         <li>CorpsesAnimal</li>
         <li>CorpsesInsect</li>
         <li>CorpsesMechanoid</li>
-        <!-- <li>FrankensteinArmyCorpse</li> -->
       </disallowedCategories>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
@@ -38,101 +41,7 @@
       </categories>
     </defaultIngredientFilter>
     <products>
-      <Frankenstein_GoreBag>120</Frankenstein_GoreBag>
-    </products>
-  </RecipeDef>
-
-  <RecipeDef>
-    <defName>Frankenstein_CollectGoreBag_Light</defName>
-    <label>(Frankenstein)CollectGoreBag_Light</label>
-    <description>ToDo.</description>
-    <jobString>Dissecting.</jobString>
-    <workAmount>200</workAmount>
-    <workSpeedStat>MechFormingSpeed</workSpeedStat>
-    <effectWorking>ButcherFlesh</effectWorking>
-    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
-    <uiIconThing>Meat_Muffalo</uiIconThing>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Corpse_Frankenstein_Soldier_SubMachinegun</li>
-            <li>Corpse_Frankenstein_Soldier_AssaultRifle</li>
-            <li>Corpse_Frankenstein_Soldier_Rifle</li>
-            <li>Corpse_Frankenstein_Soldier_Rocket</li>
-            <li>Corpse_Frankenstein_Soldier_SubMachinegunSpawned</li>
-            <li>Corpse_Frankenstein_Soldier_AssaultRifleSpawned</li>
-            <li>Corpse_Frankenstein_Soldier_RifleSpawned</li>
-            <li>Corpse_Frankenstein_Soldier_RocketSpawned</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>Corpse_Frankenstein_Soldier_SubMachinegun</li>
-        <li>Corpse_Frankenstein_Soldier_AssaultRifle</li>
-        <li>Corpse_Frankenstein_Soldier_Rifle</li>
-        <li>Corpse_Frankenstein_Soldier_Rocket</li>
-        <li>Corpse_Frankenstein_Soldier_SubMachinegunSpawned</li>
-        <li>Corpse_Frankenstein_Soldier_AssaultRifleSpawned</li>
-        <li>Corpse_Frankenstein_Soldier_RifleSpawned</li>
-        <li>Corpse_Frankenstein_Soldier_RocketSpawned</li>
-      </thingDefs>
-      <specialFiltersToAllow>
-        <li>AllowCorpsesMechFriendly</li>
-      </specialFiltersToAllow>
-    </fixedIngredientFilter>
-    <forceHiddenSpecialFilters>
-      <li>AllowCorpsesMechFriendly</li>
-    </forceHiddenSpecialFilters>
-    <products>
-      <Frankenstein_GoreBag>100</Frankenstein_GoreBag>
-    </products>
-  </RecipeDef>
-
-  <RecipeDef>
-    <defName>Frankenstein_CollectGoreBag_SuperHeavy</defName>
-    <label>(Frankenstein)CollectGoreBag_SuperHeavy</label>
-    <description>ToDo.</description>
-    <jobString>Dissecting.</jobString>
-    <workAmount>1600</workAmount>
-    <workSpeedStat>MechFormingSpeed</workSpeedStat>
-    <effectWorking>ButcherFlesh</effectWorking>
-    <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
-    <uiIconThing>Meat_Muffalo</uiIconThing>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Corpse_Frankenstein_SdKfz251_Flak</li>
-            <li>Corpse_Frankenstein_SdKfz251_SubMachinegun</li>
-            <li>Corpse_Frankenstein_SdKfz251_AssaultRifle</li>
-            <li>Corpse_Frankenstein_SdKfz251_Rifle</li>
-            <li>Corpse_Frankenstein_SdKfz251_Rocket</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>Corpse_Frankenstein_SdKfz251_Flak</li>
-        <li>Corpse_Frankenstein_SdKfz251_SubMachinegun</li>
-        <li>Corpse_Frankenstein_SdKfz251_AssaultRifle</li>
-        <li>Corpse_Frankenstein_SdKfz251_Rifle</li>
-        <li>Corpse_Frankenstein_SdKfz251_Rocket</li>
-      </thingDefs>
-      <specialFiltersToAllow>
-        <li>AllowCorpsesMechFriendly</li>
-      </specialFiltersToAllow>
-    </fixedIngredientFilter>
-    <forceHiddenSpecialFilters>
-      <li>AllowCorpsesMechFriendly</li>
-    </forceHiddenSpecialFilters>
-    <products>
-      <Frankenstein_GoreBag>800</Frankenstein_GoreBag>
+      <Frankenstein_GoreBag>150</Frankenstein_GoreBag>
     </products>
   </RecipeDef>
   

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Frankenstein_Hammer -->
+
+  <Frankenstein_Hammer.label>(FA)铁锤</Frankenstein_Hammer.label>
+  <Frankenstein_Hammer.description>这件冷酷无情的杰作融合了创造与毁灭的二重性，成为一个残酷而暴力的象征。</Frankenstein_Hammer.description>
+  <Frankenstein_Hammer.tools.0.label>头</Frankenstein_Hammer.tools.0.label>
+  <Frankenstein_Hammer.tools.1.label>锤头</Frankenstein_Hammer.tools.1.label>
+  <Frankenstein_Hammer.tools.2.label>左钳</Frankenstein_Hammer.tools.2.label>
+  <Frankenstein_Hammer.tools.3.label>右圆锯</Frankenstein_Hammer.tools.3.label>
+
+
+  <!-- Frankenstein_Cauldron -->
+
+  <Frankenstein_Cauldron.label>(FA)大釜</Frankenstein_Cauldron.label>
+  <Frankenstein_Cauldron.description>这个巧妙制造的怪物由一颗冰冷无情的心设计，以火焰的力量对无数敌人进行彻底的毁灭。</Frankenstein_Cauldron.description>
+  <Frankenstein_Cauldron.tools.0.label>头</Frankenstein_Cauldron.tools.0.label>
+  <Frankenstein_Cauldron.tools.1.label>左钳</Frankenstein_Cauldron.tools.1.label>
+  <Frankenstein_Cauldron.tools.2.label>右炮管</Frankenstein_Cauldron.tools.2.label>
+
+
+  <!-- Frankenstein_PropellerA -->
+
+  <Frankenstein_PropellerA.label>(FA)螺旋桨A</Frankenstein_PropellerA.label>
+  <Frankenstein_PropellerA.description>强大的螺旋桨切割着空气，产生了一股狂暴的力量，能够撕碎路径上的一切。每一次旋转都释放出一股灾难性的旋风，将所有反抗它的敌人吞没。</Frankenstein_PropellerA.description>
+  <Frankenstein_PropellerA.tools.0.label>头</Frankenstein_PropellerA.tools.0.label>
+  <Frankenstein_PropellerA.tools.1.label>螺旋桨叶</Frankenstein_PropellerA.tools.1.label>
+  <Frankenstein_PropellerA.tools.2.label>左拳</Frankenstein_PropellerA.tools.2.label>
+  <Frankenstein_PropellerA.tools.3.label>右拳</Frankenstein_PropellerA.tools.3.label>
+
+
+  <!-- Frankenstein_PropellerB -->
+
+  <Frankenstein_PropellerB.label>(FA)螺旋桨B</Frankenstein_PropellerB.label>
+  <Frankenstein_PropellerB.description>强大的螺旋桨切割着空气，产生了一股狂暴的力量，能够撕碎路径上的一切。每一次旋转都释放出一股灾难性的旋风，将所有反抗它的敌人吞没。</Frankenstein_PropellerB.description>
+  <Frankenstein_PropellerB.tools.0.label>头</Frankenstein_PropellerB.tools.0.label>
+  <Frankenstein_PropellerB.tools.1.label>螺旋桨叶</Frankenstein_PropellerB.tools.1.label>
+  <Frankenstein_PropellerB.tools.2.label>左拳</Frankenstein_PropellerB.tools.2.label>
+  <Frankenstein_PropellerB.tools.3.label>右拳</Frankenstein_PropellerB.tools.3.label>
+
+
+</LanguageData>

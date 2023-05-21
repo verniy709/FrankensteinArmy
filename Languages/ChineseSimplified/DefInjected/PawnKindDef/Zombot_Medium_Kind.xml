@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Frankenstein_Match -->
+
+  <Frankenstein_Match.label>(FA)火柴</Frankenstein_Match.label>
+  <Frankenstein_Match.labelPlural>(FA)火柴</Frankenstein_Match.labelPlural>
+  <Frankenstein_Match.labelMale>(FA)火柴</Frankenstein_Match.labelMale>
+  <Frankenstein_Match.labelMalePlural>(FA)火柴</Frankenstein_Match.labelMalePlural>
+  <Frankenstein_Match.labelFemale>(FA)火柴</Frankenstein_Match.labelFemale>
+  <Frankenstein_Match.labelFemalePlural>(FA)火柴</Frankenstein_Match.labelFemalePlural>
+
+
+  <!-- Frankenstein_Hound -->
+
+  <Frankenstein_Hound.label>(FA)猎犬</Frankenstein_Hound.label>
+  <Frankenstein_Hound.labelPlural>(FA)猎犬</Frankenstein_Hound.labelPlural>
+  <Frankenstein_Hound.labelMale>(FA)猎犬</Frankenstein_Hound.labelMale>
+  <Frankenstein_Hound.labelMalePlural>(FA)猎犬</Frankenstein_Hound.labelMalePlural>
+  <Frankenstein_Hound.labelFemale>(FA)猎犬</Frankenstein_Hound.labelFemale>
+  <Frankenstein_Hound.labelFemalePlural>(FA)猎犬</Frankenstein_Hound.labelFemalePlural>
+
+
+  <!-- Frankenstein_Razor -->
+
+  <Frankenstein_Razor.label>(FA)刀片</Frankenstein_Razor.label>
+  <Frankenstein_Razor.labelPlural>(FA)刀片</Frankenstein_Razor.labelPlural>
+  <Frankenstein_Razor.labelMale>(FA)刀片</Frankenstein_Razor.labelMale>
+  <Frankenstein_Razor.labelMalePlural>(FA)刀片</Frankenstein_Razor.labelMalePlural>
+  <Frankenstein_Razor.labelFemale>(FA)刀片</Frankenstein_Razor.labelFemale>
+  <Frankenstein_Razor.labelFemalePlural>(FA)刀片</Frankenstein_Razor.labelFemalePlural>
+
+
+  <!-- Frankenstein_Drill -->
+
+  <Frankenstein_Drill.label>(FA)电钻</Frankenstein_Drill.label>
+  <Frankenstein_Drill.labelPlural>(FA)电钻</Frankenstein_Drill.labelPlural>
+  <Frankenstein_Drill.labelMale>(FA)电钻</Frankenstein_Drill.labelMale>
+  <Frankenstein_Drill.labelMalePlural>(FA)电钻</Frankenstein_Drill.labelMalePlural>
+  <Frankenstein_Drill.labelFemale>(FA)电钻</Frankenstein_Drill.labelFemale>
+  <Frankenstein_Drill.labelFemalePlural>(FA)电钻</Frankenstein_Drill.labelFemalePlural>
+
+
+  <!-- Frankenstein_Needle -->
+
+  <Frankenstein_Needle.label>(FA)针头</Frankenstein_Needle.label>
+  <Frankenstein_Needle.labelPlural>(FA)针头</Frankenstein_Needle.labelPlural>
+  <Frankenstein_Needle.labelMale>(FA)针头</Frankenstein_Needle.labelMale>
+  <Frankenstein_Needle.labelMalePlural>(FA)针头</Frankenstein_Needle.labelMalePlural>
+  <Frankenstein_Needle.labelFemale>(FA)针头</Frankenstein_Needle.labelFemale>
+  <Frankenstein_Needle.labelFemalePlural>(FA)针头</Frankenstein_Needle.labelFemalePlural>
+
+
+</LanguageData>

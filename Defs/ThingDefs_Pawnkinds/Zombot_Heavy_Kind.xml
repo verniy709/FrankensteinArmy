@@ -4,10 +4,13 @@
   <!-- Frankenstein_Hammer-->
   <PawnKindDef ParentName="BaseMechanoidKind">
     <defName>Frankenstein_Hammer</defName>
-    <label>(Frankenstein)Hammer</label>
+    <label>(FA)hammer</label>
     <race>Frankenstein_Hammer</race>
-    <combatPower>250</combatPower>
+    <combatPower>300</combatPower>
     <weaponMoney>9999~9999</weaponMoney>
+    <abilities>
+      <li>Frankenstein_FireBurst</li>
+    </abilities>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>
       <li>
@@ -29,9 +32,9 @@
   <!-- Frankenstein_Cauldron-->
   <PawnKindDef ParentName="BaseMechanoidKind">
     <defName>Frankenstein_Cauldron</defName>
-    <label>(Frankenstein)Cauldron</label>
+    <label>(FA)cauldron</label>
     <race>Frankenstein_Cauldron</race>
-    <combatPower>450</combatPower>
+    <combatPower>400</combatPower>
     <maxPerGroup>3</maxPerGroup>
     <weaponMoney>9999~9999</weaponMoney>
     <allowInMechClusters>false</allowInMechClusters>
@@ -55,7 +58,7 @@
   <!-- Frankenstein_PropellerA-->
   <PawnKindDef ParentName="BaseMechanoidKind">
     <defName>Frankenstein_PropellerA</defName>
-    <label>(Frankenstein)PropellerA</label>
+    <label>(FA)propeller A</label>
     <race>Frankenstein_PropellerA</race>
     <combatPower>350</combatPower>
     <weaponMoney>9999~9999</weaponMoney>
@@ -81,7 +84,7 @@
   <!-- Frankenstein_PropellerB-->
   <PawnKindDef ParentName="BaseMechanoidKind">
     <defName>Frankenstein_PropellerB</defName>
-    <label>(Frankenstein)PropellerB</label>
+    <label>(FA)propeller B</label>
     <race>Frankenstein_PropellerB</race>
     <combatPower>350</combatPower>
     <weaponMoney>9999~9999</weaponMoney>

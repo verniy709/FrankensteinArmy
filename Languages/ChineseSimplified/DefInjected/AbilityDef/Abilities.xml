@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Frankenstein_FireBurst.label>(FA)火焰喷射</Frankenstein_FireBurst.label>
+  <Frankenstein_FireBurst.description>一些恰到好处的烘烤能为他们的生命增添一些风味。但注意千万不要烤过头了，否则他们可能会变得过于酥脆！</Frankenstein_FireBurst.description>
+
+  <Frankenstein_LongjumpMech.label>(FA)跳跃</Frankenstein_LongjumpMech.label>
+  <Frankenstein_LongjumpMech.description>如同扭曲的芭蕾，怪物灵活而优雅地穿梭其中。</Frankenstein_LongjumpMech.description>
+  <Frankenstein_LongjumpMech.verbProperties.label>跳跃</Frankenstein_LongjumpMech.verbProperties.label>
+
+  <Frankenstein_BerserkPulse.label>(FA)狂暴脉冲</Frankenstein_BerserkPulse.label>
+  <Frankenstein_BerserkPulse.description>置身其外的感觉真是太爽了。</Frankenstein_BerserkPulse.description>
+
+
+</LanguageData>

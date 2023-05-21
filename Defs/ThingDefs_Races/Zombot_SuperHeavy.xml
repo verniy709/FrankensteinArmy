@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Frankenstein_SdKfz251Base-->
-  <ThingDef Name="Frankenstein_SdKfz251Base" ParentName="Frankenstein_SuperHeavy" Abstract="True">
+  <!-- Frankenstein_SuperHeavyBase-->
+  <ThingDef Name="Frankenstein_SuperHeavyBase" ParentName="Frankenstein_SuperHeavy" Abstract="True">
     <statBases>
       <MoveSpeed>7.0</MoveSpeed>
       <EMPResistance>0.3</EMPResistance>
@@ -23,7 +23,7 @@
           <soundCall>Pawn_Mech_Warqueen_Call</soundCall>
         </li>
       </lifeStageAges>
-      <baseHealthScale>4.0</baseHealthScale>
+      <baseHealthScale>3.0</baseHealthScale>
     </race>
     <butcherProducts>
       <Frankenstein_GoreBag>720</Frankenstein_GoreBag>
@@ -34,7 +34,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>16</power>
+        <power>18</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -43,18 +43,41 @@
     </tools>
   </ThingDef>
 
-  <!-- Frankenstein_SdKfz251_Flak-->
-  <ThingDef ParentName="Frankenstein_SdKfz251Base">
-    <defName>Frankenstein_SdKfz251_Flak</defName>
-    <label>(Frankenstein)SdKfz251_Flak</label>
-    <description>ToDo.</description>
+  <!-- Frankenstein_PanzerIV-->
+  <ThingDef ParentName="Frankenstein_SuperHeavyBase">
+    <defName>Frankenstein_PanzerIV</defName>
+    <label>(FA)Panzer IV</label>
+    <description>This monstrous amalgamation of flesh and steel combines the formidable power and impenetrable armor of a tank with a disturbing semblance of life.</description>
+    <statBases>
+      <MoveSpeed>4.0</MoveSpeed>
+      <EMPResistance>0.3</EMPResistance>
+      <MarketValue>2000</MarketValue>
+      <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.40</ArmorRating_Sharp>
+      <BandwidthCost>6</BandwidthCost>
+    </statBases>
+    <race>
+      <baseHealthScale>4.5</baseHealthScale>
+    </race>
+    <tools Inherit="False">
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>50</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
   </ThingDef>
 
   <!-- Frankenstein_SdKfz251_SubMachinegun-->
-  <ThingDef ParentName="Frankenstein_SdKfz251Base">
+  <ThingDef ParentName="Frankenstein_SuperHeavyBase">
     <defName>Frankenstein_SdKfz251_SubMachinegun</defName>
-    <label>(Frankenstein)SdKfz251_SubMachinegun</label>
-    <description>ToDo.</description>
+    <label>(FA)SdKfz251 submachine gun</label>
+    <description>The mere sight of the abomination strikes fear into the hearts of its adversaries, for they face not only an indomitable war machine but a living horror capable of spawning an unending horde.</description>
     <comps>
       <li Class="CompProperties_MechCarrier">
         <spawnPawnKind>Frankenstein_Soldier_SubMachinegunSpawned</spawnPawnKind>
@@ -71,10 +94,10 @@
   </ThingDef>
 
   <!-- Frankenstein_SdKfz251_AssaultRifle-->
-  <ThingDef ParentName="Frankenstein_SdKfz251Base">
+  <ThingDef ParentName="Frankenstein_SuperHeavyBase">
     <defName>Frankenstein_SdKfz251_AssaultRifle</defName>
-    <label>(Frankenstein)SdKfz251_AssaultRifle</label>
-    <description>ToDo.</description>
+    <label>(FA)SdKfz251 assault rifle</label>
+    <description>The mere sight of the abomination strikes fear into the hearts of its adversaries, for they face not only an indomitable war machine but a living horror capable of spawning an unending horde.</description>
     <comps>
       <li Class="CompProperties_MechCarrier">
         <spawnPawnKind>Frankenstein_Soldier_AssaultRifleSpawned</spawnPawnKind>
@@ -91,10 +114,10 @@
   </ThingDef>
 
   <!-- Frankenstein_SdKfz251_Rifle-->
-  <ThingDef ParentName="Frankenstein_SdKfz251Base">
+  <ThingDef ParentName="Frankenstein_SuperHeavyBase">
     <defName>Frankenstein_SdKfz251_Rifle</defName>
-    <label>(Frankenstein)SdKfz251_Rifle</label>
-    <description>ToDo.</description>
+    <label>(FA)SdKfz251 rifle</label>
+    <description>The mere sight of the abomination strikes fear into the hearts of its adversaries, for they face not only an indomitable war machine but a living horror capable of spawning an unending horde.</description>
     <comps>
       <li Class="CompProperties_MechCarrier">
         <spawnPawnKind>Frankenstein_Soldier_RifleSpawned</spawnPawnKind>
@@ -111,10 +134,10 @@
   </ThingDef>
 
   <!-- Frankenstein_SdKfz251_Rocket-->
-  <ThingDef ParentName="Frankenstein_SdKfz251Base">
+  <ThingDef ParentName="Frankenstein_SuperHeavyBase">
     <defName>Frankenstein_SdKfz251_Rocket</defName>
-    <label>(Frankenstein)SdKfz251_Rocket</label>
-    <description>ToDo.</description>
+    <label>(FA)SdKfz251 rocket</label>
+    <description>The mere sight of the abomination strikes fear into the hearts of its adversaries, for they face not only an indomitable war machine but a living horror capable of spawning an unending horde.</description>
     <comps>
       <li Class="CompProperties_MechCarrier">
         <spawnPawnKind>Frankenstein_Soldier_RocketSpawned</spawnPawnKind>

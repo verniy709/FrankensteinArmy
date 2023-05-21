@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Frankenstein_CookBeetSoup.label>烹饪甜菜汤</Frankenstein_CookBeetSoup.label>
+  <Frankenstein_CookBeetSoup.description>秘密食材融入一锅甜菜炖肉（eintopf）中，给他们的感官留下了难以磨灭的印记。</Frankenstein_CookBeetSoup.description>
+  <Frankenstein_CookBeetSoup.jobString>烹饪甜菜汤中.</Frankenstein_CookBeetSoup.jobString>
+
+  <Frankenstein_CookBeetSoupBulk.label>烹饪4份甜菜汤</Frankenstein_CookBeetSoupBulk.label>
+  <Frankenstein_CookBeetSoupBulk.description>秘密食材融入一锅甜菜炖肉（eintopf）中，给他们的感官留下了难以磨灭的印记。</Frankenstein_CookBeetSoupBulk.description>
+  <Frankenstein_CookBeetSoupBulk.jobString>烹饪4份甜菜汤中.</Frankenstein_CookBeetSoupBulk.jobString>
+
+
+</LanguageData>

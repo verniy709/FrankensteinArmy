@@ -15,9 +15,9 @@
   </RecipeDef>
 
   <RecipeDef ParentName="BaseFrankensteinResurrectionRecipe">
-    <defName>ResurrectLightZombot</defName>
-    <label>resurrect light zombot</label>
-    <description>ToDo.</description>
+    <defName>Frankenstein_ResurrectLightZombot</defName>
+    <label>(FA)resurrect light zombot</label>
+    <description>As the life force returns, so too does the unwavering loyalty and obedience.</description>
     <ingredients>
       <li>
         <filter>
@@ -51,9 +51,9 @@
   </RecipeDef>
 
   <RecipeDef ParentName="BaseFrankensteinResurrectionRecipe">
-    <defName>ResurrectMediumZombot</defName>
-    <label>resurrect medium zombot</label>
-    <description>ToDo.</description>
+    <defName>Frankenstein_ResurrectMediumZombot</defName>
+    <label>(FA)resurrect medium zombot</label>
+    <description>As the life force returns, so too does the unwavering loyalty and obedience.</description>
     <ingredients>
       <li>
         <filter>
@@ -84,9 +84,9 @@
   </RecipeDef>
 
   <RecipeDef ParentName="BaseFrankensteinResurrectionRecipe">
-    <defName>ResurrectHeavyZombot</defName>
-    <label>resurrect heavy zombot</label>
-    <description>ToDo.</description>
+    <defName>Frankenstein_ResurrectHeavyZombot</defName>
+    <label>(FA)resurrect heavy zombot</label>
+    <description>As the life force returns, so too does the unwavering loyalty and obedience.</description>
     <ingredients>
       <li>
         <filter>
@@ -116,9 +116,9 @@
   </RecipeDef>
 
   <RecipeDef ParentName="BaseFrankensteinResurrectionRecipe">
-    <defName>ResurrectSuperHeavyZombot</defName>
-    <label>resurrect superHeavy zombot</label>
-    <description>ToDo.</description>
+    <defName>Frankenstein_ResurrectSuperHeavyZombot</defName>
+    <label>(FA)resurrect superHeavy zombot</label>
+    <description>As the life force returns, so too does the unwavering loyalty and obedience.</description>
     <ingredients>
       <li>
         <filter>
@@ -139,7 +139,7 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Corpse_Frankenstein_SdKfz251_Flak</li>
+        <li>Frankenstein_PanzerIV</li>
         <li>Corpse_Frankenstein_SdKfz251_SubMachinegun</li>
         <li>Corpse_Frankenstein_SdKfz251_AssaultRifle</li>
         <li>Corpse_Frankenstein_SdKfz251_Rifle</li>

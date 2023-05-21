@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Frankenstein_Hammer.label>(FA)铁锤</Frankenstein_Hammer.label>
+  <Frankenstein_Hammer.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_Hammer.description>
+  <Frankenstein_Hammer.jobString>组装僵尸机械中</Frankenstein_Hammer.jobString>
+
+  <Frankenstein_Cauldron.label>(FA)大釜</Frankenstein_Cauldron.label>
+  <Frankenstein_Cauldron.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_Cauldron.description>
+  <Frankenstein_Cauldron.jobString>组装僵尸机械中</Frankenstein_Cauldron.jobString>
+
+  <Frankenstein_PropellerA.label>(FA)螺旋桨A</Frankenstein_PropellerA.label>
+  <Frankenstein_PropellerA.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_PropellerA.description>
+  <Frankenstein_PropellerA.jobString>组装僵尸机械中</Frankenstein_PropellerA.jobString>
+
+  <Frankenstein_PropellerB.label>(FA)螺旋桨B</Frankenstein_PropellerB.label>
+  <Frankenstein_PropellerB.description>随着每颗螺丝的拧紧，每根电线的连接，生命将会重新复苏，忠诚地服侍他们的新主人。</Frankenstein_PropellerB.description>
+  <Frankenstein_PropellerB.jobString>组装僵尸机械中</Frankenstein_PropellerB.jobString>
+
+
+</LanguageData>

@@ -17,8 +17,8 @@
 
 	<RecipeDef ParentName="MediumFrankensteinRecipe">
 		<defName>Frankenstein_Match</defName>
-		<label>(Frankenstein)Match</label>
-		<description>ToDo.</description>
+		<label>(FA)Match</label>
+		<description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
 		<products>
 			<Frankenstein_Match>1</Frankenstein_Match>
 		</products>
@@ -29,8 +29,8 @@
 
 	<RecipeDef ParentName="MediumFrankensteinRecipe">
 		<defName>Frankenstein_Hound</defName>
-		<label>(Frankenstein)Hound</label>
-		<description>ToDo.</description>
+		<label>(FA)Hound</label>
+		<description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
 		<products>
 			<Frankenstein_Hound>1</Frankenstein_Hound>
 		</products>
@@ -41,8 +41,8 @@
 
 	<RecipeDef ParentName="MediumFrankensteinRecipe">
 		<defName>Frankenstein_Razor</defName>
-		<label>(Frankenstein)Razor</label>
-		<description>ToDo.</description>
+		<label>(FA)Razor</label>
+		<description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
 		<products>
 			<Frankenstein_Razor>1</Frankenstein_Razor>
 		</products>
@@ -53,8 +53,8 @@
 
 	<RecipeDef ParentName="MediumFrankensteinRecipe">
 		<defName>Frankenstein_Drill</defName>
-		<label>(Frankenstein)Drill</label>
-		<description>ToDo.</description>
+		<label>(FA)Drill</label>
+		<description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
 		<products>
 			<Frankenstein_Drill>1</Frankenstein_Drill>
 		</products>
@@ -65,8 +65,8 @@
 
 	<RecipeDef ParentName="MediumFrankensteinRecipe">
 		<defName>Frankenstein_Needle</defName>
-		<label>(Frankenstein)Needle</label>
-		<description>ToDo.</description>
+		<label>(FA)Needle</label>
+		<description>With every bolt tightened, every wire connected, the creation shall come to life, bound to serve faithfully.</description>
 		<products>
 			<Frankenstein_Needle>1</Frankenstein_Needle>
 		</products>

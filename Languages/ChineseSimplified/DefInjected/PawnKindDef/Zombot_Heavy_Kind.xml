@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Frankenstein_Hammer -->
+
+  <Frankenstein_Hammer.label>(FA)铁锤</Frankenstein_Hammer.label>
+  <Frankenstein_Hammer.labelPlural>(FA)铁锤</Frankenstein_Hammer.labelPlural>
+  <Frankenstein_Hammer.labelMale>(FA)铁锤</Frankenstein_Hammer.labelMale>
+  <Frankenstein_Hammer.labelMalePlural>(FA)铁锤</Frankenstein_Hammer.labelMalePlural>
+  <Frankenstein_Hammer.labelFemale>(FA)铁锤</Frankenstein_Hammer.labelFemale>
+  <Frankenstein_Hammer.labelFemalePlural>(FA)铁锤</Frankenstein_Hammer.labelFemalePlural>
+
+
+  <!-- Frankenstein_Cauldron -->
+
+  <Frankenstein_Cauldron.label>(FA)大釜</Frankenstein_Cauldron.label>
+  <Frankenstein_Cauldron.labelPlural>(FA)大釜</Frankenstein_Cauldron.labelPlural>
+  <Frankenstein_Cauldron.labelMale>(FA)大釜</Frankenstein_Cauldron.labelMale>
+  <Frankenstein_Cauldron.labelMalePlural>(FA)大釜</Frankenstein_Cauldron.labelMalePlural>
+  <Frankenstein_Cauldron.labelFemale>(FA)大釜</Frankenstein_Cauldron.labelFemale>
+  <Frankenstein_Cauldron.labelFemalePlural>(FA)大釜</Frankenstein_Cauldron.labelFemalePlural>
+
+
+  <!-- Frankenstein_PropellerA -->
+
+  <Frankenstein_PropellerA.label>(FA)螺旋桨A</Frankenstein_PropellerA.label>
+  <Frankenstein_PropellerA.labelPlural>(FA)螺旋桨A</Frankenstein_PropellerA.labelPlural>
+  <Frankenstein_PropellerA.labelMale>(FA)螺旋桨A</Frankenstein_PropellerA.labelMale>
+  <Frankenstein_PropellerA.labelMalePlural>(FA)螺旋桨A</Frankenstein_PropellerA.labelMalePlural>
+  <Frankenstein_PropellerA.labelFemale>(FA)螺旋桨A</Frankenstein_PropellerA.labelFemale>
+  <Frankenstein_PropellerA.labelFemalePlural>(FA)螺旋桨A</Frankenstein_PropellerA.labelFemalePlural>
+
+
+  <!-- Frankenstein_PropellerB -->
+
+  <Frankenstein_PropellerB.label>(FA)螺旋桨B</Frankenstein_PropellerB.label>
+  <Frankenstein_PropellerB.labelPlural>(FA)螺旋桨B</Frankenstein_PropellerB.labelPlural>
+  <Frankenstein_PropellerB.labelMale>(FA)螺旋桨B</Frankenstein_PropellerB.labelMale>
+  <Frankenstein_PropellerB.labelMalePlural>(FA)螺旋桨B</Frankenstein_PropellerB.labelMalePlural>
+  <Frankenstein_PropellerB.labelFemale>(FA)螺旋桨B</Frankenstein_PropellerB.labelFemale>
+  <Frankenstein_PropellerB.labelFemalePlural>(FA)螺旋桨B</Frankenstein_PropellerB.labelFemalePlural>
+
+
+</LanguageData>

@@ -19,24 +19,26 @@
   
   <ThingDef ParentName="MechGestatorBase">
     <defName>Frankenstein_Workshop</defName>
-    <label>(Frankenstein)Workshop</label>
-    <description>ToDo</description>
+    <label>(FA)workshop</label>
+    <description>A macabre assembly line, where flesh and metal intertwine to form obedient monstrosities.</description>
     <graphicData>
-      <texPath>Things/Building/Production/MechGestatorStandard</texPath>
+      <texPath>Building/Frankenstein_Workshop</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(5.6,4)</drawSize>
+      <drawSize>(3.3,2.74)</drawSize>
       <shadowData>
         <volume>(3, 2, 1.9)</volume>
       </shadowData>
     </graphicData>
-    <uiIconPath>Things/Building/Production/MechGestatorStandard_MenuIcon</uiIconPath>
-    <uiIconScale>1.85</uiIconScale>
-    <interactionCellOffset>(1,0,2)</interactionCellOffset>
+    <rotatable>false</rotatable>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <uiIconPath>Building/Frankenstein_Workshop</uiIconPath>
+    <uiIconScale>1.5</uiIconScale>
+    <interactionCellOffset>(0,0,2)</interactionCellOffset>
     <recipes>
-      <li>ResurrectLightZombot</li>
-      <li>ResurrectMediumZombot</li>
-      <li>ResurrectHeavyZombot</li>
-      <li>ResurrectSuperHeavyZombot</li>
+      <li>Frankenstein_ResurrectLightZombot</li>
+      <li>Frankenstein_ResurrectMediumZombot</li>
+      <li>Frankenstein_ResurrectHeavyZombot</li>
+      <li>Frankenstein_ResurrectSuperHeavyZombot</li>
       <li>Frankenstein_PODHans</li>
       <li>Frankenstein_PODHelga</li>
       <li>Frankenstein_PODHeinrich</li>
@@ -54,7 +56,7 @@
       <li>Frankenstein_Cauldron</li>
       <li>Frankenstein_PropellerA</li>
       <li>Frankenstein_PropellerB</li>
-      <li>Frankenstein_SdKfz251_Flak</li>
+      <li>Frankenstein_PanzerIV</li>
       <li>Frankenstein_SdKfz251_SubMachinegun</li>
       <li>Frankenstein_SdKfz251_AssaultRifle</li>
       <li>Frankenstein_SdKfz251_Rifle</li>
@@ -76,62 +78,57 @@
     </researchPrerequisites>
     <building>
       <barDrawData>
+        <east>
+          <preRotationOffset>(-1.08, 0.89)</preRotationOffset>
+          <size>(0.663, 0.0777)</size>
+        </east>
         <north>
-          <preRotationOffset>(-1.135, 0.894)</preRotationOffset>
-          <size>(0.691, 0.1)</size>
+          <preRotationOffset>(-1.08, 0.89)</preRotationOffset>
+          <size>(0.663, 0.0777)</size>
         </north>
         <south>
-          <preRotationOffset>(-1.133, 0.83)</preRotationOffset>
-          <size>(0.736, 0.0863)</size>
+          <preRotationOffset>(-1.08, 0.89)</preRotationOffset>
+          <size>(0.663, 0.0777)</size>
         </south>
-        <east>
-          <preRotationOffset>(1.068, -0.971)</preRotationOffset>
-          <size>(0.812, 0.09)</size>
-        </east>
-        <west>
-          <preRotationOffset>(-1.11, -0.93)</preRotationOffset>
-          <size>(0.812, 0.09)</size>
-        </west>
       </barDrawData>
       <formingGraphicData>
-        <texPath>Things/Pawn/Mechanoid/HalfGestatedMechSmall</texPath>
+        <texPath>Frankenstein_Null</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         <drawSize>(1,1)</drawSize>
       </formingGraphicData>
       <formingMechPerRotationOffset>
-        <li>(0, 0, 0.45)</li>
-        <li>(0, 0, 0.45)</li>
-        <li>(0, 0, 0.45)</li>
-        <li>(0, 0, 0.45)</li>
+        <li>(0, 0, 0)</li>
+        <li>(0, 0, 0)</li>
+        <li>(0, 0, 0)</li>
+        <li>(0, 0, 0)</li>
       </formingMechPerRotationOffset>
       <mechGestatorCylinderGraphic>
-        <texPath>Things/Building/Production/MechGestatorStandardGlass</texPath>
+        <texPath>Frankenstein_Null</texPath>
         <graphicClass>Graphic_Multi</graphicClass>
-        <drawSize>(5.6,4)</drawSize>
-        <shaderType>Transparent</shaderType>
+        <drawSize>(1,1)</drawSize>
       </mechGestatorCylinderGraphic>
       <mechGestatorTopGraphic>
-        <texPath>Things/Building/Production/MechGestatorStandardTop</texPath>
+        <texPath>Frankenstein_Null</texPath>
         <graphicClass>Graphic_Multi</graphicClass>
-        <drawSize>(5.6,4)</drawSize>
+        <drawSize>(1,1)</drawSize>
       </mechGestatorTopGraphic>
       <gestatorFormingMote>
-        <north>MechGestatorForming_North</north>
-        <east>MechGestatorForming_East</east>
-        <west>MechGestatorForming_East</west>
-        <south>MechGestatorForming_South</south>
+        <north>Mote_FrankensteinForming</north>
+        <east>Mote_FrankensteinForming</east>
+        <west>Mote_FrankensteinForming</west>
+        <south>Mote_FrankensteinForming</south>
       </gestatorFormingMote>
       <gestatorCycleCompleteMote>
-        <north>MechGestatorCycleComplete_North</north>
-        <east>MechGestatorCycleComplete_East</east>
-        <west>MechGestatorCycleComplete_East</west>
-        <south>MechGestatorCycleComplete_South</south>
+        <north>Mote_FrankensteinComplete</north>
+        <east>Mote_FrankensteinComplete</east>
+        <west>Mote_FrankensteinComplete</west>
+        <south>Mote_FrankensteinComplete</south>
       </gestatorCycleCompleteMote>
       <gestatorFormedMote>
-        <north>MechGestatorFormed_North</north>
-        <east>MechGestatorFormed_East</east>
-        <west>MechGestatorFormed_East</west>
-        <south>MechGestatorFormed_South</south>
+        <north>Mote_FrankensteinFormed</north>
+        <east>Mote_FrankensteinFormed</east>
+        <west>Mote_FrankensteinFormed</west>
+        <south>Mote_FrankensteinFormed</south>
       </gestatorFormedMote>
     </building>
     <comps>

@@ -40,10 +40,10 @@
   <!-- Frankenstein_Match -->  
   <ThingDef ParentName="Frankenstein_MediumBase">
     <defName>Frankenstein_Match</defName>
-    <label>(Frankenstein)Match</label>
-    <description>ToDo.</description>
+    <label>(FA)match</label>
+    <description>It darts towards its targets like a suicidal apparition, leaving a trail of chaos and despair in its wake.</description>
     <statBases>
-      <MoveSpeed>5.8</MoveSpeed>
+      <MoveSpeed>6.0</MoveSpeed>
     </statBases>
     <race>
       <lifeStageAges Inherit="False">
@@ -85,8 +85,8 @@
   <!-- Frankenstein_Hound -->  
   <ThingDef ParentName="Frankenstein_MediumBase">
     <defName>Frankenstein_Hound</defName>
-    <label>(Frankenstein)Hound</label>
-    <description>ToDo.</description>
+    <label>(FA)hound</label>
+    <description>This formidable entity combines strength and loyalty in perfect equilibrium, forged to serve its creator's malevolent will.</description>
     <statBases>
       <MoveSpeed>5.0</MoveSpeed>
       <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
@@ -99,7 +99,6 @@
           <def>MechanoidFullyFormed</def>
           <minAge>0</minAge>
           <soundWounded>Pawn_Mech_Apocriton_Wounded</soundWounded>
-          <soundAngry>Pawn_Mech_Apocriton_Call</soundAngry>
           <soundDeath>Pawn_Mech_Apocriton_Death</soundDeath>
           <soundCall>Pawn_Mech_Apocriton_Call</soundCall>
         </li>
@@ -134,8 +133,8 @@
   <!-- Frankenstein_Razor -->  
   <ThingDef ParentName="Frankenstein_MediumBase">
     <defName>Frankenstein_Razor</defName>
-    <label>(Frankenstein)Razor</label>
-    <description>ToDo.</description>
+    <label>(FA)razor</label>
+    <description>Clad in heavy armor, this formidable entity radiates an aura of impenetrable strength.</description>
     <statBases>
       <MoveSpeed>3.0</MoveSpeed>
       <ArmorRating_Blunt>0.70</ArmorRating_Blunt>
@@ -186,15 +185,14 @@
   <!-- Frankenstein_Drill -->  
   <ThingDef ParentName="Frankenstein_MediumBase">
     <defName>Frankenstein_Drill</defName>
-    <label>(Frankenstein)Drill</label>
-    <description>ToDo.</description>
+    <label>(FA)drill</label>
+    <description>The ground trembles beneath its powerful propulsion as it springs into the air, ready to unleash devastation from above.</description>
     <statBases>
       <MoveSpeed>3.5</MoveSpeed>
       <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
     </statBases>
     <race>
-      <thinkTreeConstant>Frankenstein_Drill_Constant</thinkTreeConstant>
       <baseHealthScale>1.4</baseHealthScale>
       <lifeStageAges Inherit="False">
         <li>
@@ -245,8 +243,8 @@
   <!-- Frankenstein_Needle -->  
   <ThingDef ParentName="Frankenstein_MediumBase">
     <defName>Frankenstein_Needle</defName>
-    <label>(Frankenstein)Needle</label>
-    <description>ToDo.</description>
+    <label>(FA)needle</label>
+    <description>This miraculous revival imbues the fallen minions with renewed vigor, allowing them to rise once more and resume their sinister duties.</description>
     <statBases>
       <MoveSpeed>4.0</MoveSpeed>
       <ArmorRating_Blunt>0.40</ArmorRating_Blunt>

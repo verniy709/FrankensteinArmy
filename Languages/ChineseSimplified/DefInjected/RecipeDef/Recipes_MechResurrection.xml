@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Frankenstein_ResurrectLightZombot.label>(FA)复活轻型僵尸机械</Frankenstein_ResurrectLightZombot.label>
+  <Frankenstein_ResurrectLightZombot.description>随着生命力的回归，绝对的忠诚和顺从也随之而来。</Frankenstein_ResurrectLightZombot.description>
+  <Frankenstein_ResurrectLightZombot.jobString>复活僵尸机械中.</Frankenstein_ResurrectLightZombot.jobString>
+
+  <Frankenstein_ResurrectMediumZombot.label>(FA)复活中型僵尸机械</Frankenstein_ResurrectMediumZombot.label>
+  <Frankenstein_ResurrectMediumZombot.description>随着生命力的回归，绝对的忠诚和顺从也随之而来。</Frankenstein_ResurrectMediumZombot.description>
+  <Frankenstein_ResurrectMediumZombot.jobString>复活僵尸机械中.</Frankenstein_ResurrectMediumZombot.jobString>
+
+  <Frankenstein_ResurrectHeavyZombot.label>(FA)复活重型僵尸机械</Frankenstein_ResurrectHeavyZombot.label>
+  <Frankenstein_ResurrectHeavyZombot.description>随着生命力的回归，绝对的忠诚和顺从也随之而来。</Frankenstein_ResurrectHeavyZombot.description>
+  <Frankenstein_ResurrectHeavyZombot.jobString>复活僵尸机械中.</Frankenstein_ResurrectHeavyZombot.jobString>
+
+  <Frankenstein_ResurrectSuperHeavyZombot.label>(FA)复活超重型僵尸机械</Frankenstein_ResurrectSuperHeavyZombot.label>
+  <Frankenstein_ResurrectSuperHeavyZombot.description>随着生命力的回归，绝对的忠诚和顺从也随之而来。</Frankenstein_ResurrectSuperHeavyZombot.description>
+  <Frankenstein_ResurrectSuperHeavyZombot.jobString>复活僵尸机械中.</Frankenstein_ResurrectSuperHeavyZombot.jobString>
+
+
+</LanguageData>

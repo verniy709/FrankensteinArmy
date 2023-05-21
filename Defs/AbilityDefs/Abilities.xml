@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AbilityDef>
+    <defName>Frankenstein_FireBurst</defName>
+    <label>(FA)fire burst</label>
+    <description>Nothing like a little roasting to add some flavor to their lives. Just be careful not to overcook them, or they might become a bit too crispy for your liking!</description>
+    <jobDef>CastAbilityOnThingWithoutWeapon</jobDef>
+    <iconPath>UI/Abilities/FireBurst</iconPath>
+    <cooldownTicksRange>5000</cooldownTicksRange>
+    <charges>2</charges>
+    <aiCanUse>true</aiCanUse>
+    <ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
+    <targetRequired>false</targetRequired>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <showCastingProgressBar>true</showCastingProgressBar>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupEffecter>Fire_Burst_Warmup</warmupEffecter>
+      <warmupTime>2</warmupTime>
+      <requireLineOfSight>false</requireLineOfSight>
+      <range>5.9</range>
+      <drawAimPie>false</drawAimPie>      
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityFireBurst">
+        <radius>5.9</radius>
+      </li>
+    </comps>
+  </AbilityDef> 
+
+  <AbilityDef>
+    <defName>Frankenstein_LongjumpMech</defName>
+    <label>(FA)long jump</label>
+    <description>The monstrous minions dart around with agility and grace, like a twisted ballet.</description>
+    <iconPath>UI/Abilities/MechLongJump</iconPath>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+    <targetRequired>False</targetRequired>
+    <charges>5</charges>
+    <cooldownTicksRange>1500</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <hostile>false</hostile>
+    <verbProperties>
+      <verbClass>Verb_CastAbilityJump</verbClass>
+      <label>jump</label>
+      <violent>false</violent>
+      <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+      <warmupTime>0.1</warmupTime>
+      <minRange>5.9</minRange>
+      <range>14.9</range>
+      <requireLineOfSight>true</requireLineOfSight>
+      <soundCast>Longjump_Jump</soundCast>
+      <soundLanding>Longjump_Land</soundLanding>
+      <flyWithCarriedThing>false</flyWithCarriedThing>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetPawns>true</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <jobDef>CastJump</jobDef>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>Frankenstein_BerserkPulse</defName>
+    <label>(FA)berserk pulse</label>
+    <description>How delightful it must be to sit back and watch the chaos unfold.</description>
+    <iconPath>UI/Abilities/MechSmokepop</iconPath>
+    <targetRequired>False</targetRequired>
+    <charges>2</charges>
+    <cooldownTicksRange>20000</cooldownTicksRange>
+    <aiCanUse>true</aiCanUse>
+    <stunTargetWhileCasting>False</stunTargetWhileCasting>
+    <showPsycastEffects>False</showPsycastEffects>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+    <writeCombatLog>True</writeCombatLog>
+    <uiOrder>3</uiOrder>
+    <statBases>
+      <Ability_Duration>25</Ability_Duration>
+      <Ability_EffectRadius>2.9</Ability_EffectRadius>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <warmupTime>3</warmupTime>
+      <range>14.9</range>
+      <requireLineOfSight>True</requireLineOfSight>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetLocations>True</canTargetLocations>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveMentalState">
+        <compClass>CompAbilityEffect_GiveMentalState</compClass>
+        <stateDef>Berserk</stateDef>
+        <stateDefForMechs>BerserkMechanoid</stateDefForMechs>
+        <psychic>True</psychic>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+        <goodwillImpact>-75</goodwillImpact>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+</Defs>

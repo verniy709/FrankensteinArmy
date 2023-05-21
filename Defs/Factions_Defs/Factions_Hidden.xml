@@ -4,7 +4,7 @@
   <FactionDef ParentName="FactionBase">
     <defName>FrankensteinArmy</defName>
     <label>Frankenstein's Army</label>
-    <description>ToDo.</description>
+    <description>In the depths of time, Victor Frankenstein rises anew. His loyal followers restore his memory and skills, unleashing a monstrous army of zombots. Now, his insidious quest stretches beyond Earth, aiming to conquer every known planet. Humanity's fate teeters on the edge as a battle of science and morality unfolds. Can the spirit of resistance triumph against an ancient evil?</description>
     <pawnSingular>zombot</pawnSingular>
     <pawnsPlural>zombots</pawnsPlural>
     <fixedName>Frankenstein's Army</fixedName>
@@ -96,14 +96,14 @@
         <kindDef>Combat</kindDef>
         <commonality>80</commonality>
         <options>
-          <Frankenstein_Soldier_SubMachinegun>10</Frankenstein_Soldier_SubMachinegun>
-          <Frankenstein_Soldier_AssaultRifle>10</Frankenstein_Soldier_AssaultRifle>
-          <Frankenstein_Soldier_Rifle>10</Frankenstein_Soldier_Rifle>
-          <Frankenstein_Soldier_Rocket>10</Frankenstein_Soldier_Rocket>
+          <Frankenstein_Soldier_SubMachinegun>15</Frankenstein_Soldier_SubMachinegun>
+          <Frankenstein_Soldier_AssaultRifle>15</Frankenstein_Soldier_AssaultRifle>
+          <Frankenstein_Soldier_Rifle>15</Frankenstein_Soldier_Rifle>
+          <Frankenstein_Soldier_Rocket>15</Frankenstein_Soldier_Rocket>
           <Frankenstein_PODHeinrich>2</Frankenstein_PODHeinrich>
-          <Frankenstein_PODHans>3</Frankenstein_PODHans>
-          <Frankenstein_PODHelga>3</Frankenstein_PODHelga>
-          <Frankenstein_SdKfz251_Flak>1</Frankenstein_SdKfz251_Flak>
+          <Frankenstein_PODHans>5</Frankenstein_PODHans>
+          <Frankenstein_PODHelga>5</Frankenstein_PODHelga>
+          <Frankenstein_PanzerIV>1</Frankenstein_PanzerIV>
           <Frankenstein_SdKfz251_SubMachinegun>1</Frankenstein_SdKfz251_SubMachinegun>
           <Frankenstein_SdKfz251_AssaultRifle>1</Frankenstein_SdKfz251_AssaultRifle>
           <Frankenstein_SdKfz251_Rifle>1</Frankenstein_SdKfz251_Rifle>

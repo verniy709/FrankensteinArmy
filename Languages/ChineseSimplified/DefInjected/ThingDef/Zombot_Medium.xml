@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Frankenstein_Match -->
+
+  <Frankenstein_Match.label>(FA)火柴</Frankenstein_Match.label>
+  <Frankenstein_Match.description>如同一个嗜血的恶鬼，向目标急速冲刺，留下一串混乱和绝望的痕迹。</Frankenstein_Match.description>
+  <Frankenstein_Match.tools.0.label>头</Frankenstein_Match.tools.0.label>
+  <Frankenstein_Match.tools.1.label>左手刀</Frankenstein_Match.tools.1.label>
+  <Frankenstein_Match.tools.2.label>右手刀</Frankenstein_Match.tools.2.label>
+
+
+  <!-- Frankenstein_Hound -->
+
+  <Frankenstein_Hound.label>(FA)猎犬</Frankenstein_Hound.label>
+  <Frankenstein_Hound.description>这个可怕的存在将力量和忠诚完美地锻造在一起，用来执行其创造者邪恶的意志。</Frankenstein_Hound.description>
+  <Frankenstein_Hound.tools.0.label>头</Frankenstein_Hound.tools.0.label>
+  <Frankenstein_Hound.tools.1.label>左爪</Frankenstein_Hound.tools.1.label>
+  <Frankenstein_Hound.tools.2.label>右爪</Frankenstein_Hound.tools.2.label>
+
+
+  <!-- Frankenstein_Razor -->
+
+  <Frankenstein_Razor.label>(FA)刀片</Frankenstein_Razor.label>
+  <Frankenstein_Razor.description>穿戴着沉重的装甲，这个可怕的存在散发出一种无法突破的坚韧。</Frankenstein_Razor.description>
+  <Frankenstein_Razor.tools.0.label>头</Frankenstein_Razor.tools.0.label>
+  <Frankenstein_Razor.tools.1.label>左钳</Frankenstein_Razor.tools.1.label>
+  <Frankenstein_Razor.tools.2.label>右钳</Frankenstein_Razor.tools.2.label>
+
+
+  <!-- Frankenstein_Drill -->
+
+  <Frankenstein_Drill.label>(FA)电钻</Frankenstein_Drill.label>
+  <Frankenstein_Drill.description>强大的推进力让地面颤动，升空后随即释放毁灭。</Frankenstein_Drill.description>
+  <Frankenstein_Drill.tools.0.label>头</Frankenstein_Drill.tools.0.label>
+  <Frankenstein_Drill.tools.1.label>电钻</Frankenstein_Drill.tools.1.label>
+  <Frankenstein_Drill.tools.2.label>左锯</Frankenstein_Drill.tools.2.label>
+  <Frankenstein_Drill.tools.3.label>右锯</Frankenstein_Drill.tools.3.label>
+
+
+  <!-- Frankenstein_Needle -->
+
+  <Frankenstein_Needle.label>(FA)针头</Frankenstein_Needle.label>
+  <Frankenstein_Needle.description>如同奇迹一样为倒下的仆从注入新的活力。他们将再次崛起，执行他们邪恶的职责。</Frankenstein_Needle.description>
+  <Frankenstein_Needle.tools.0.label>头</Frankenstein_Needle.tools.0.label>
+  <Frankenstein_Needle.tools.1.label>左爪</Frankenstein_Needle.tools.1.label>
+  <Frankenstein_Needle.tools.2.label>右针头</Frankenstein_Needle.tools.2.label>
+
+
+</LanguageData>
