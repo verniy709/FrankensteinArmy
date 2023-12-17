@@ -7,8 +7,9 @@
     <description>Nothing like a little roasting to add some flavor to their lives. Just be careful not to overcook them, or they might become a bit too crispy for your liking!</description>
     <jobDef>CastAbilityOnThingWithoutWeapon</jobDef>
     <iconPath>UI/Abilities/FireBurst</iconPath>
-    <cooldownTicksRange>5000</cooldownTicksRange>
+    <cooldownTicksRange>1500</cooldownTicksRange>
     <charges>2</charges>
+    <cooldownPerCharge>true</cooldownPerCharge>
     <aiCanUse>true</aiCanUse>
     <ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
     <targetRequired>false</targetRequired>
@@ -40,9 +41,9 @@
     <iconPath>UI/Abilities/MechLongJump</iconPath>
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
-    <targetRequired>False</targetRequired>
     <charges>5</charges>
-    <cooldownTicksRange>1500</cooldownTicksRange>
+    <cooldownTicksRange>300</cooldownTicksRange>
+    <cooldownPerCharge>true</cooldownPerCharge>
     <aiCanUse>true</aiCanUse>
     <hostile>false</hostile>
     <verbProperties>
@@ -59,7 +60,7 @@
       <flyWithCarriedThing>false</flyWithCarriedThing>
       <targetParams>
         <canTargetLocations>true</canTargetLocations>
-        <canTargetPawns>true</canTargetPawns>
+        <canTargetPawns>false</canTargetPawns>
         <canTargetBuildings>false</canTargetBuildings>
       </targetParams>
     </verbProperties>
@@ -71,9 +72,9 @@
     <label>(FA)berserk pulse</label>
     <description>How delightful it must be to sit back and watch the chaos unfold.</description>
     <iconPath>UI/Abilities/MechSmokepop</iconPath>
-    <targetRequired>False</targetRequired>
     <charges>2</charges>
-    <cooldownTicksRange>20000</cooldownTicksRange>
+    <cooldownTicksRange>1500</cooldownTicksRange>
+    <cooldownPerCharge>true</cooldownPerCharge>
     <aiCanUse>true</aiCanUse>
     <stunTargetWhileCasting>False</stunTargetWhileCasting>
     <showPsycastEffects>False</showPsycastEffects>
@@ -96,6 +97,7 @@
         <canTargetAnimals>True</canTargetAnimals>
       </targetParams>
     </verbProperties>
+    <jobDef>CastAbilityOnThingWithoutWeapon</jobDef>
     <comps>
       <li Class = "CompProperties_AbilityGiveMentalState">
         <compClass>CompAbilityEffect_GiveMentalState</compClass>
@@ -107,6 +109,69 @@
       </li>
       <li Class="CompProperties_AbilityFleckOnTarget">
         <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <AbilityDef>
+    <defName>Frankenstein_ResurrectionMech</defName>
+    <label>(FA)resurrect mech</label>
+    <description>A surge of electricity courses through the fallen creation. In the engineer's twisted domain, death is a temporary inconvenience.</description>
+    <iconPath>UI/Abilities/MechResurrection</iconPath>
+    <charges>2</charges>
+    <cooldownTicksRange>15000</cooldownTicksRange>
+    <cooldownPerCharge>true</cooldownPerCharge>
+    <aiCanUse>true</aiCanUse>
+    <ai_SearchAOEForTargets>true</ai_SearchAOEForTargets>
+    <warmupStartSound>MechResurrect_Warmup</warmupStartSound>
+    <warmupEffecter>ApocrionAoeWarmup</warmupEffecter>
+    <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+    <canUseAoeToGetTargets>true</canUseAoeToGetTargets>
+    <useAverageTargetPositionForWarmupEffecter>true</useAverageTargetPositionForWarmupEffecter>
+    <hostile>false</hostile>
+    <statBases> 
+      <Ability_EffectRadius>3</Ability_EffectRadius>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <drawAimPie>true</drawAimPie>
+      <range>9.9</range>
+      <warmupTime>4</warmupTime>
+      <soundCast>MechResurrect_Cast</soundCast>
+      <requireLineOfSight>true</requireLineOfSight>
+      <targetParams>
+        <canTargetPawns>false</canTargetPawns>
+        <canTargetBuildings>false</canTargetBuildings>
+        <canTargetCorpses>true</canTargetCorpses>
+        <canTargetAnimals>false</canTargetAnimals>
+        <canTargetHumans>false</canTargetHumans>
+        <canTargetMechs>true</canTargetMechs>
+      </targetParams>
+    </verbProperties>
+    <jobDef>CastAbilityOnThingWithoutWeapon</jobDef>
+    <comps>
+      <li Class="CompProperties_ResurrectMech">
+        <maxCorpseAgeTicks>36000</maxCorpseAgeTicks><!-- 60 seconds -->
+        <costs>
+          <li>
+            <weightClass>Light</weightClass>
+            <cost>0</cost>
+          </li>
+          <li>
+            <weightClass>Medium</weightClass>
+            <cost>0</cost>
+          </li>
+          <li>
+            <weightClass>Heavy</weightClass>
+            <cost>0</cost>
+          </li>
+          <li>
+            <weightClass>UltraHeavy</weightClass>
+            <cost>0</cost>
+          </li>
+        </costs>
+        <appliedEffecterDef>MechResurrected</appliedEffecterDef>
       </li>
     </comps>
   </AbilityDef>

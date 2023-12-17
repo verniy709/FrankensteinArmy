@@ -462,7 +462,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_Rocket</defaultProjectile>
+        <defaultProjectile>Frankenstein_FlakShell</defaultProjectile>
         <forcedMissRadius>2.9</forcedMissRadius>
         <warmupTime>4.5</warmupTime>
         <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>

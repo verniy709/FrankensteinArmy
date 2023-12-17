@@ -96,7 +96,7 @@
     <combatPower>140</combatPower>
     <maxPerGroup>3</maxPerGroup>
     <abilities>
-      <li>ResurrectionMech</li>
+      <li>Frankenstein_ResurrectionMech</li>
     </abilities>
     <allowInMechClusters>false</allowInMechClusters>
     <lifeStages>

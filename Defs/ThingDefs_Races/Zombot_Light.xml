@@ -47,7 +47,9 @@
         <li>Firefighter</li>
         <li>Construction</li>
         <li>Mining</li>
+        <li>Cleaning</li>
       </mechEnabledWorkTypes>
+      <mechFixedSkillLevel>16</mechFixedSkillLevel>
       <lifeStageAges Inherit="False">
         <li>
           <def>MechanoidFullyFormed</def>
@@ -75,7 +77,12 @@
         <li>PlantCutting</li>
         <li>Growing</li>
         <li>Doctor</li>
+        <li>Cleaning</li>
       </mechEnabledWorkTypes>
+      <mechFixedSkillLevel>16</mechFixedSkillLevel>
+      <mechWorkTypePriorities>
+        <PlantCutting>2</PlantCutting>
+      </mechWorkTypePriorities>
       <lifeStageAges Inherit="False">
         <li>
           <def>MechanoidFullyFormed</def>
@@ -106,7 +113,9 @@
         <li>Hauling</li>
         <li>Firefighter</li>
         <li>Research</li>
+        <li>Cleaning</li>
       </mechEnabledWorkTypes>
+      <mechFixedSkillLevel>16</mechFixedSkillLevel>
       <lifeStageAges Inherit="False">
         <li>
           <def>MechanoidFullyFormed</def>
